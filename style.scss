@@ -1,12 +1,3 @@
-$width1_responsive: 3400px;
-$width2_responsive: 1450px;
-$width3_responsive: 1100px;
-$width4_responsive: 850px;
-$width5_responsive: 600px;
-
-$widthCollum: 100%;
-$widthLastCollum: 200%;
-
 
 @mixin MainSlide(){
 
@@ -31,14 +22,15 @@ $widthLastCollum: 200%;
 
 @mixin buttons{
 
-    padding: 0.6rem;
-    color: black;
+    padding: 0.7rem;
+    color: white;
+    padding-right: 2rem;
+    padding-left: 2rem;
     margin-right: .50rem ;
-    border-radius: .50rem;
-    font-weight: 600;
-    background: white;
-    font-family: inherit;
-    font-size: 100%;
+    border-radius: .2rem;
+    font-weight: bold;
+    background: rgba(0,0,0,0.4);
+    font-size: 22px;
     border: 0;
 }
 
@@ -69,7 +61,7 @@ $widthLastCollum: 200%;
 
     ),
 
-    url(img/EUPHORIA.jpg);
+    url(img/la_casa_index.jpg);
 
     background-size: cover;
     padding: 0.26rem 0.75rem 0 0.75rem;
@@ -88,7 +80,7 @@ h1{
 
     display: flex;
     flex-direction: column;
-    height: 75%;
+    height: 80%;
     justify-content: center;
     width: 50%;
     color: white;
@@ -103,7 +95,16 @@ h1{
     padding-top: .5rem;
     padding-bottom: .1rem;
     text-align: justify;
-    width: 400px;
+    width: 70%;
+
+    img{
+
+        width: 30%;
+        margin-bottom: 2rem;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
 }
 
 
@@ -136,6 +137,12 @@ h1{
     display: flex;
 }
 
+.movie img{
+
+    width: 100%;
+    margin-bottom: .9rem;
+}
+
 .menu{
 
     display: flex;
@@ -166,6 +173,8 @@ h1{
 
     display: flex;
     color: white;
+    font-size: .95rem;
+    margin-left: 1rem;
 
 }
 
@@ -187,7 +196,7 @@ h1{
 
 .menu .user img{
 
-    width: 2.5rem;
+    width: 2rem;
    
 }
 
@@ -200,6 +209,7 @@ h1{
 .buttons .btn{
 
     @include buttons();
+
 
     &:hover{
 
@@ -270,108 +280,27 @@ h1{
 }
 
 
-@media screen and (max-width: $width1_responsive) {
-
-    .movie img{
-
-        width: $widthCollum;
-    }
-    
-}
-
-
 @media screen and (max-width: $width2_responsive) {
 
 
-    .category{
-
-        text-align: center;
-    }
-
-    .slider{
-
-        width:$widthCollum;
-        margin-right: 0px;
-        justify-content: center;
-    }
-    .movie img{
-
-        width: $widthCollum;
-    }
-
-    .movie{
-
-        margin-bottom: 20px;
-    }
+  
 }
 
 @media screen and (max-width: $width3_responsive) {
 
 
-    .container_{
-
-        background-image: url(img/EUPHORIA.png);
-        background-size: cover;
-        padding: 0.26rem 0.75rem 0 0.75rem;
-    }
+  
 }
 
 @media screen and (max-width: $width4_responsive) {
 
     
-    .container_{
-
-        background-image: url(img/EUPHORIA.png);
-        background-size: cover;
-        padding: 0.26rem 0.75rem 0 0.75rem;
-    }
+ 
  
 }
 
 @media screen and (max-width: $width5_responsive) {
 
 
-    .container_{
-
-       background-image: url(img/EUPHORIA.png);
-       background-size: cover;
-       padding: 0.26rem 0.75rem 0 0.75rem;
-    }
-
-
-    .category{
-
-        text-align: center;
-    }
-
-
-    .banner .subtitle, .actors{
-
-        justify-content: center;
-        width: 350px;
-    }
-
-    .banner h1{
-
-        text-align: center;
-    }
-
-    .footer img {
-
-      width: 30px;
-      height: 30px;
-      margin-right:38px;
-
-    }       
-        
-    .movie img{
-
-        margin-left: 20px;
-    }
-
-    .buttons .btn{
-
-        margin-bottom: 20px;
-    }
 
 }
