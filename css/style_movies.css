@@ -1,0 +1,279 @@
+    
+    *{
+        box-sizing: border-box;
+    }
+
+    body{
+
+        padding: 0; 
+        margin: 0 auto;
+        font-family:Arial, Helvetica, sans-serif;
+        background-color: #041213;
+    }   
+
+    .container{
+
+        height: 100vh;
+        width: 100vw;
+        padding: 0.26rem 0.75rem 0 0.75rem;
+        background-size: cover;
+
+    }
+
+    #black_mirror{
+
+        background-image: url(../img_movies/black_mirror.jpg);
+    }
+
+    #sex_education{
+
+        background-image: url(../img_movies/sex_education.jpg);
+        
+    }
+
+    #vis_a_vis{
+
+        background-image: url(../img_movies/vis_a_vis.jpg);
+    }
+
+    #dark{
+
+        background-image: url(../img_movies/dark.png);
+    }
+
+    #you{
+
+        background-image: url(../img_movies/you.jpg);
+    }
+
+    #peaky_blinders{
+
+        background-image: url(../img_movies/peaky_blinders.jpg);
+    }
+
+    #F1{
+
+        background-image: url(../img_movies/F1.jpg);
+    }
+
+    #last_dance{
+
+        background-image: url(../img_movies/last_dance.jpg);
+    }
+
+    #la_casa_de_papel{
+
+        background-image: url(../img_movies/la_casa_de_papel.jpg);
+
+    }
+
+    #gambito_da_rainha{
+
+        background-image: url(../img_movies/gambito_da_dama.jpg);
+
+    }
+
+    #forest_gump{
+
+        background-image: url(../img_movies/forest_gump.jpg);
+        opacity: .8;
+    }
+
+    #clube_da_luta{
+
+        background-image: url(../img_movies/clube_da_luta.jpg);
+
+    }
+
+    #big_mouth{
+
+
+        background-image: url(../img_movies/big_mouth.jpg);
+
+    }
+
+    #the_walking_dead{
+
+
+        background-image: url(../img_movies/the_walking_dead.jpg);
+
+    }
+
+    #breaking_bad{
+
+
+        background-image: url(../img_movies/breaking_bad.jpg);
+
+    }
+
+    #maid{
+
+        background-image: url(../img_movies/maid_.jpg);
+
+
+    }
+
+    #come_back_home{
+
+        background-image: url(../img_movies/miranha.png);
+    }
+
+    #jumanji{
+
+        background-image: url(../img_movies/jumanji.jpg);
+    }
+
+    #efeito_borboleta{
+
+        background-image: url(../img_movies/efeito_borboleta.jpg);
+
+    }
+
+    #emily_em_paris{
+
+        background-image: url(../img_movies/emily_em_paris.jpg);
+
+    }
+
+    #rick_and_morty{
+
+        background-image: url(../img_movies/rick_and_morty.png);
+    }
+
+    #stranger_things{
+
+        background-image: url(../img_movies/stranger_things.jpg);
+    }
+
+    #lucy{
+
+        background-image: url(../img_movies/lucy.jpg);
+    }
+
+    #round_6{
+
+        background-image: url(../img_movies/round_6.jpg);
+
+    }
+
+    .banner .subtitle{
+
+ 
+        color: white;
+        font-size: 20px;
+        line-height: 1.25;
+        padding-top: .5rem;
+        padding-bottom: .1rem;
+        width: 400px;
+    }
+
+    .banner .subtitle div{
+
+        text-align: justify;
+    }
+
+    .buttons{
+
+        margin-top: 3rem;
+    
+    }
+    
+    .buttons .btn{
+
+        margin-bottom: 20px;
+        padding: 0.6rem;
+        color: white;
+        margin-right: .50rem ;
+        border-radius: .50rem;
+        font-weight: 600;
+        background: rgba(51, 51, 51, 0.2);
+        font-family: inherit;
+        font-size: 100%;
+        border: 0;
+    }
+
+    .buttons .btn i {
+
+        margin-right:1rem;
+    }
+
+    .btn:hover{
+
+        border: 4px solid rebeccapurple;
+        background-color: white;
+        color: rebeccapurple;
+    
+    }
+
+
+    .banner{
+
+        display: flex;
+        flex-direction: column;
+        height: 75%;
+        justify-content: center;
+        width: 50%;
+        color: white;
+    }
+
+    .main_content{
+
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+        padding: 0 3rem;
+    
+    }
+
+    .menu .user img{
+
+        border-radius: 50%;
+        width: 3rem;
+       
+    }
+
+    .menu .user{
+
+        display: flex;
+        align-items: center;
+    }
+
+    .menu_right{
+
+        display: flex;
+        color: white;
+        text-align: right;
+    
+    }
+    
+
+    .menu{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .logo{
+
+        width: 320px;
+        
+    }
+
+    #maid .logo h1{
+
+        color:#041213
+    }
+
+    .logo h1{
+
+        color: white;
+        font-size: 32px;
+    }
+
+    .links{
+
+        text-decoration: none;
+        
+    }
