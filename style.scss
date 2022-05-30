@@ -20,21 +20,6 @@
  
 }
 
-@mixin buttons{
-
-    padding: 0.7rem;
-    color: white;
-    padding-right: 2rem;
-    padding-left: 2rem;
-    margin-right: .50rem ;
-    border-radius: .2rem;
-    font-weight: bold;
-    background: rgba(0,0,0,0.4);
-    font-size: 22px;
-    border: 0;
-}
-
-
 *{
     box-sizing: border-box;
 }
@@ -82,7 +67,7 @@ h1{
     flex-direction: column;
     height: 80%;
     justify-content: center;
-    width: 50%;
+    width: 100%;
     color: white;
 }
 
@@ -95,7 +80,7 @@ h1{
     padding-top: .5rem;
     padding-bottom: .1rem;
     text-align: justify;
-    width: 70%;
+    width: 35%;
 
     img{
 
@@ -135,6 +120,7 @@ h1{
 
     align-items: center;
     display: flex;
+    
 }
 
 .movie img{
@@ -174,15 +160,14 @@ h1{
     display: flex;
     color: white;
     font-size: .95rem;
-    margin-left: 1rem;
-
+    text-align: left;
 }
 
 .menu_right{
 
     display: flex;
     color: white;
-    font-size: .87rem;
+    font-size: 1.1rem;
 
 }
 
@@ -208,7 +193,16 @@ h1{
 
 .buttons .btn{
 
-    @include buttons();
+    padding: 0.7rem;
+    color: white;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-right: .50rem ;
+    border-radius: .3rem;
+    font-weight: bold;
+    background: rgba(0,0,0,0.6);
+    font-size: 22px;
+    border: 0;
 
 
     &:hover{
@@ -280,27 +274,21 @@ h1{
 }
 
 
-@media screen and (max-width: $width2_responsive) {
+@media screen and (max-width: 920px) {
+
+    .banner .subtitle{
 
 
-  
-}
-
-@media screen and (max-width: $width3_responsive) {
+        width: 100%;
 
 
-  
-}
+        img{
 
-@media screen and (max-width: $width4_responsive) {
+            width: 40%;
+        }
 
-    
- 
- 
-}
-
-@media screen and (max-width: $width5_responsive) {
-
+    }
 
 
 }
+
