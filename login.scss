@@ -7,11 +7,72 @@ body{
 
     font-family: sans-serif;
     color: white;
+    overflow-x: hidden;
+}
+
+.container_{
+
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+
+    background: black;
+    margin-top: 0;
+    border-top: 8px solid #222;
+    padding: 1rem 0 2rem 0;
+    display: grid;
+    justify-items: center;
+
+}
+
+.grid{
+
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    width: 60%;
+    align-items: center;
+
+}
+
+.device-pile{
+
+    .video-tv{
+
+        z-index: -0.5;
+
+        top: 70px;
+        left: 90px;
+
+    }
+
+
+}
+
+.img-tv{
+
+    position: relative;
+
+    img{  
+
+        position: relative;
+        z-index: 1;
+    }
+
+    .video-tv{
+        
+        position: absolute;
+        top: 85px;
+        left: 74px;
+    }
 }
 
 .main{
 
-    height: 85vh;
+    height: 80vh;
     width: 100vw;
     background: url(img/background-login.jpg) center;
     background-size: cover;
@@ -24,6 +85,7 @@ body{
 
         font-size: 64px;
         max-width: 510px;
+        margin-bottom: 20px;
        
         
     }
@@ -31,12 +93,13 @@ body{
     span{
 
         font-size: 26px;
+        margin-bottom: 20px;
 
     }
 
     p{
 
-        font-size: 19px;
+        font-size: 22px;
 
     }
 
@@ -84,7 +147,7 @@ body{
     background: rgba(0,0,0,0.4);
     background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
     position: absolute;
-    height: 85vh;
+    height: 80vh;
     top: 0;
     right: 0;
     bottom: 0;
@@ -93,9 +156,31 @@ body{
 
 .text{
 
+
+
     display: grid;
     justify-items: center;
     z-index: 1;
+
+}
+
+.section{
+
+    background: black;
+    padding: 4rem 0;
+    border-top: 8px solid #222;
+  
+    h1{
+
+        font-size: 50px;
+        margin-bottom: 16px;
+    }
+
+    p{
+
+        font-size: 26px;
+    }
+
 
 }
 

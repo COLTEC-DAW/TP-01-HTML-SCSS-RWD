@@ -6,10 +6,66 @@
 body {
   font-family: sans-serif;
   color: white;
+  overflow-x: hidden;
+}
+
+.container_ {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer {
+  background: black;
+  margin-top: 0;
+  border-top: 8px solid #222;
+  padding: 1rem 0 2rem 0;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1.2fr 1fr;
+      grid-template-columns: 1.2fr 1fr;
+  width: 60%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.device-pile .video-tv {
+  z-index: -0.5;
+  top: 70px;
+  left: 90px;
+}
+
+.img-tv {
+  position: relative;
+}
+
+.img-tv img {
+  position: relative;
+  z-index: 1;
+}
+
+.img-tv .video-tv {
+  position: absolute;
+  top: 85px;
+  left: 74px;
 }
 
 .main {
-  height: 85vh;
+  height: 80vh;
   width: 100vw;
   background: url(img/background-login.jpg) center;
   background-size: cover;
@@ -28,14 +84,16 @@ body {
 .main h1 {
   font-size: 64px;
   max-width: 510px;
+  margin-bottom: 20px;
 }
 
 .main span {
   font-size: 26px;
+  margin-bottom: 20px;
 }
 
 .main p {
-  font-size: 19px;
+  font-size: 22px;
 }
 
 .logo {
@@ -81,7 +139,7 @@ body {
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(0, 0, 0, 0.8)), color-stop(60%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.8)));
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
   position: absolute;
-  height: 85vh;
+  height: 80vh;
   top: 0;
   right: 0;
   bottom: 0;
@@ -93,6 +151,21 @@ body {
   display: grid;
   justify-items: center;
   z-index: 1;
+}
+
+.section {
+  background: black;
+  padding: 4rem 0;
+  border-top: 8px solid #222;
+}
+
+.section h1 {
+  font-size: 50px;
+  margin-bottom: 16px;
+}
+
+.section p {
+  font-size: 26px;
 }
 
 .form-login {
