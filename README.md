@@ -19,7 +19,7 @@ Utilizando as técnicas e tecnologias vistas na disciplina até então, selecion
 Obrigatóriamente, seu protótipo deverá utilizar:
 * Framework bootstrap (ou outro framework CSS);
 * Layout responsivo, utilizando a técnica de grid layout (layout de colunas);
-    * Para cada tela, implementar pelo menos dois layouts;
+* Para cada tela, implementar pelo menos dois layouts;
 
 Segue sugestões de alguns sistemas:
 * https://www.uol.com.br/ (site de notíticas)

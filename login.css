@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: white;
+}
+
+.main {
+  height: 85vh;
+  width: 100vw;
+  background: url(img/background-login.jpg) center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 64px;
+  max-width: 510px;
+}
+
+.main span {
+  font-size: 26px;
+}
+
+.main p {
+  font-size: 19px;
+}
+
+.logo {
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.logo img {
+  width: 8rem;
+}
+
+.header {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 25px;
+  color: white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .entrar {
+  margin-right: 50px;
+  background-color: #e50914;
+  color: white;
+  display: inline-block;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  padding: 8px 18px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.gradient {
+  background: rgba(0, 0, 0, 0.4);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(0, 0, 0, 0.8)), color-stop(60%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+  position: absolute;
+  height: 85vh;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.text {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  z-index: 1;
+}
+
+.form-login {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 500px 250px;
+      grid-template-columns: 500px 250px;
+  margin-top: 30px;
+}
+
+.form-login input {
+  padding: 20px 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.form-login button {
+  background-color: #e50914;
+  outline: none;
+  color: white;
+  border: none;
+  font-size: 30px;
+}
+
+.form-login i {
+  margin-left: 20px;
+}
+/*# sourceMappingURL=login.css.map */

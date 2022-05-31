@@ -33,6 +33,11 @@
 
 }   
 
+#menu_cel{
+
+    display: none;
+}
+
 .container_{
 
     height: 100vh;
@@ -116,12 +121,6 @@ h1{
 
 }
 
-.header{
-
-    align-items: center;
-    display: flex;
-    
-}
 
 .movie img{
 
@@ -149,6 +148,11 @@ h1{
     }
 }
 
+.header{
+
+    display: flex;
+    align-items: center;
+}
 
 .links{
 
@@ -167,7 +171,8 @@ h1{
 
     display: flex;
     color: white;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    justify-content: right;
 
 }
 
@@ -212,7 +217,7 @@ h1{
 
     }
 }
-
+   
 .buttons .btn i {
 
     margin-right:1rem;
@@ -289,6 +294,15 @@ h1{
 
     }
 
+
+}
+
+@media screen and (max-width: 780px) {
+
+    .menu_left{
+
+        display: none;
+    }
 
 }
 
