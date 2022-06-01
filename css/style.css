@@ -1,0 +1,22 @@
+/* imports */
+/* variables */
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/hero-mobile.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  #hero {
+    background-image: url(./images/hero.jpg);
+  }
+}
+/*# sourceMappingURL=style.css.map */
