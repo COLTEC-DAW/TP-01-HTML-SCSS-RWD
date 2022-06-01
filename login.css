@@ -9,6 +9,10 @@ body {
   overflow-x: hidden;
 }
 
+img {
+  width: 100%;
+}
+
 .container_ {
   width: 100%;
   -webkit-box-pack: center;
@@ -33,35 +37,18 @@ body {
 }
 
 .grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1.2fr 1fr;
-      grid-template-columns: 1.2fr 1fr;
   width: 60%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.device-pile .video-tv {
-  z-index: -0.5;
-  top: 70px;
-  left: 90px;
+.description {
+  padding: 3rem;
 }
 
-.img-tv {
-  position: relative;
-}
-
-.img-tv img {
-  position: relative;
-  z-index: 1;
-}
-
-.img-tv .video-tv {
-  position: absolute;
-  top: 85px;
-  left: 74px;
+.description p {
+  text-align: justify;
 }
 
 .main {
@@ -83,16 +70,18 @@ body {
 
 .main h1 {
   font-size: 64px;
-  max-width: 510px;
+  width: 100%;
   margin-bottom: 20px;
 }
 
 .main span {
   font-size: 26px;
+  width: 100%;
   margin-bottom: 20px;
 }
 
 .main p {
+  width: 100%;
   font-size: 22px;
 }
 
@@ -147,10 +136,8 @@ body {
 }
 
 .text {
-  display: -ms-grid;
-  display: grid;
-  justify-items: center;
   z-index: 1;
+  width: 100%;
 }
 
 .section {
@@ -171,8 +158,11 @@ body {
 .form-login {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 500px 250px;
-      grid-template-columns: 500px 250px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: 400px 250px;
+      grid-template-columns: 400px 250px;
   margin-top: 30px;
 }
 
@@ -192,5 +182,68 @@ body {
 
 .form-login i {
   margin-left: 20px;
+}
+
+.link {
+  padding: 50px;
+}
+
+.sub-links ul {
+  list-style: none;
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.sub-links a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.sub-links a:hover {
+  color: var(--dark);
+  text-decoration: underline;
+}
+
+.logos a {
+  padding: 10px;
+}
+
+.logo {
+  color: var(--dark);
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  color: var(--dark);
+  margin: 10px;
+}
+
+@media screen and (max-width: 720px) {
+  .main h1 {
+    font-size: 32px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .main span {
+    font-size: 13px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .main p {
+    width: 100%;
+    font-size: 11px;
+  }
+  .form-login {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 200px;
+        grid-template-columns: 200px 200px;
+    margin-top: 30px;
+  }
 }
 /*# sourceMappingURL=login.css.map */
