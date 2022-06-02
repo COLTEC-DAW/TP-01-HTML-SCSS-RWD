@@ -3,6 +3,7 @@
 body {
   background-color: #000000;
   color: #ffffff;
+  font-family: "Raleway", sans-serif;
 }
 
 #hero {
@@ -16,7 +17,7 @@ body {
 
 @media (min-width: 768px) {
   #hero {
-    background-image: url(../images/hero.jpg);
+    background-image: url(https://www.tesla.com/tesla_theme/assets/img/_vehicle_redesign/roadster_and_semi/roadster/hero.jpg);
   }
 }
 
@@ -24,5 +25,11 @@ body {
   background-image: url(../images/logo.svg);
   background-repeat: no-repeat;
   width: 150px;
+}
+
+#navbarToggler {
+  font-size: 16px;
+  font-weight: 600;
+  color: #171A20;
 }
 /*# sourceMappingURL=style.css.map */

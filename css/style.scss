@@ -5,11 +5,13 @@
 
 $background-color: #000000;
 $primary-text-color: #ffffff;
-
+$nav-text-color: #171A20; 
+$primary-font:'Raleway', sans-serif;
 
 body {
     background-color: $background-color;
     color: $primary-text-color;
+    font-family: $primary-font;
 }
 
 #hero {
@@ -24,7 +26,7 @@ body {
 
 @include respond-above(sm) {
     #hero {
-        background-image: url(../images/hero.jpg);
+        background-image: url(https://www.tesla.com/tesla_theme/assets/img/_vehicle_redesign/roadster_and_semi/roadster/hero.jpg);
     }
 }
 
@@ -32,4 +34,10 @@ body {
     background-image: url(../images/logo.svg);
     background-repeat: no-repeat;
     width: 150px;
+}
+
+#navbarToggler {
+    font-size: 16px;
+    font-weight: 600;
+    color: $nav-text-color;
 }
