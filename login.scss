@@ -33,7 +33,55 @@ img{
     display: grid;
     justify-items: center;
 
+    width: 100%;
+    color: #808080;
+    
+    .copy{
+    
+            margin-top: 30px;
+            margin-bottom: 10px;
+    }
+    
+    
+    i{
+    
+         color: white;
+         transform: scale(1.3);
+         margin-right: 50px;
+    }
+    
+        .flex{
+        
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-bottom: 80px;
+            
+        }
+    
+        .info{
+            ul{
+    
+                list-style: none;
+                display: inline;
+                font-size: 15px;
+    
+                li{
+                    margin-top: 8px;
+                }
+            }
+        }
+
+        .social_media{
+
+            margin-top: 50px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    
 }
+
 
 .grid{
     
