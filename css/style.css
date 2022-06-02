@@ -32,4 +32,12 @@ body {
   font-weight: 600;
   color: #171A20;
 }
+
+#main-title {
+  text-align: center;
+  color: #5C5E62;
+  font-size: 3.5rem;
+  padding: auto;
+  margin: 40px;
+}
 /*# sourceMappingURL=style.css.map */

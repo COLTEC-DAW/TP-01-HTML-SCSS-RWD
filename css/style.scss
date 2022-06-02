@@ -4,13 +4,15 @@
 /* variables */
 
 $background-color: #000000;
-$primary-text-color: #ffffff;
+$primary-text-color: #5C5E62;
+$secondary-text-color: #ffffff;
 $nav-text-color: #171A20; 
 $primary-font:'Raleway', sans-serif;
 
+
 body {
     background-color: $background-color;
-    color: $primary-text-color;
+    color: $secondary-text-color;
     font-family: $primary-font;
 }
 
@@ -40,4 +42,12 @@ body {
     font-size: 16px;
     font-weight: 600;
     color: $nav-text-color;
+}
+
+#main-title {
+    text-align: center;
+    color: $primary-text-color;
+    font-size: 3.5rem;
+    padding: auto;
+    margin: 40px;
 }
