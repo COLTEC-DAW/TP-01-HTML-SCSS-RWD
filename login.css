@@ -116,16 +116,19 @@ img {
   font-size: 64px;
   width: 100%;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .main span {
   font-size: 26px;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  font-weight: bold;
 }
 
 .main p {
   width: 100%;
+  margin-top: 40px;
   font-size: 22px;
 }
 
