@@ -71,7 +71,7 @@ h1 {
 }
 
 .logo img {
-  width: 6rem;
+  width: 4.75rem;
 }
 
 .main_content {
@@ -179,6 +179,7 @@ h1 {
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
+  margin-left: 5px;
 }
 
 .menu_right ul {
@@ -189,6 +190,7 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-left: 0;
 }
 
 .menu_right ul li {
@@ -379,6 +381,12 @@ h1 {
     display: none;
   }
   .infantil {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .bell {
     display: none;
   }
 }
