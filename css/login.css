@@ -98,7 +98,7 @@ img {
 .main {
   height: 80vh;
   width: 100vw;
-  background: url(img/background-login.jpg) center;
+  background: url(../img/background-login.jpg) center;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
