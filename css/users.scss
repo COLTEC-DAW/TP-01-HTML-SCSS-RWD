@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    font-family: sans-serif;
+    color: white; 
+    background-color: #141414ff;
+}
+
+
+.container_{
+
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.main-content{
+
+    padding: 3rem 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+   
+}
+
+.logo{
+
+    text-decoration: none;
+    margin-left: 50px;
+
+    img {
+
+        width: 4.75rem;
+    }
+    
+}
+
+.header{
+
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    top: 14px;
+    color: white;
+    justify-content: space-between;
+
+}
+
+.users{
+
+    padding: 8rem 0;
+
+    .profiles{
+
+        width: 100%;  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .imgs-profiles{
+
+       
+        width: 70%;
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    h2{
+        margin-top: 15px;
+        font-size: 18px;
+        letter-spacing: 2px;
+        color: grey;
+    }
+
+    h1{
+
+        font-size: 55px;
+        margin-bottom: 30px;
+    }
+
+    li{
+
+        width: auto;
+        
+    }
+
+    img{
+
+        width: 100%;    
+        border-radius: 8px;
+        cursor: pointer;
+
+        &:hover{
+
+            border: white solid 4px;
+        }
+    }
+
+    .perfis{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .perfil-box{
+
+        border: grey solid 1px; 
+        margin-top: 60px;
+        font-size: 18px;
+        padding: 10px 25px 10px 25px;
+        letter-spacing: 2px;
+        cursor: pointer;
+
+        a{
+            text-decoration: none;
+            color: grey;
+        }
+
+       &:hover{
+
+        border: white solid 1px; 
+        a{
+        color: white;
+
+        }
+
+       }
+
+
+    }
+
+    @media screen and (min-width: 1000px){
+
+        body{
+        
+            overflow:hidden;
+        }
+        
+    }
+
+
+}
