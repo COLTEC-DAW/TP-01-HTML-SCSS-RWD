@@ -10,6 +10,20 @@
   background-color: #141414ff;
 }
 
+.modal-hero {
+  background: url(../img/la_casa_de_papel_modal.jpg) center;
+  background-size: cover;
+  height: 60vh;
+}
+
+.modal-content {
+  background: #171717;
+}
+
+.modal-content img {
+  width: 100%;
+}
+
 .container_ {
   height: 100vh;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(20%, rgba(0, 0, 0, 0.2)), color-stop(80%, rgba(20, 20, 20, 0.2)), to(#141414)), url(../img/la_casa_index.jpg);

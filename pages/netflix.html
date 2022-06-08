@@ -16,6 +16,30 @@
 
 <body class="full_site">
 
+    <div class="modal fade" id="modal-main-movie">
+
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-hero">
+
+                    <div class="col-12 modal-hero-infos">
+
+                        <div class="buttons">
+
+                        <button class="btn"><i class="fas fa-play"></i>Assistir</button>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-infos">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
     <div class="container_"> 
 
         <div class="main_content">
@@ -89,9 +113,8 @@
                 </span>
 
                 <div class="buttons">
-                    <button class="btn"><i class="fas fa-play"></i>Assistir</button>
-                    <button class="btn"><i class="fas fa-info-circle"></i>Mais informações</button>
-
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#modal-main-movie" class="btn"><i class="fas fa-play"></i>Assistir</button>
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#modal-main-movie" class="btn"><i class="fas fa-info-circle"></i>Mais informações</button>
                 </div>
 
 

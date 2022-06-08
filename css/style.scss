@@ -33,6 +33,23 @@
 
 }   
 
+.modal-hero{
+
+    background: url(../img/la_casa_de_papel_modal.jpg) center;
+    background-size: cover;
+    height: 60vh;
+}
+
+
+.modal-content{
+
+    background: #171717;
+
+    img{
+        width: 100%;
+    }
+}
+
 .container_{
 
     height: 100vh;
