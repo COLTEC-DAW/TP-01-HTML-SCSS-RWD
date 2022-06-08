@@ -50,7 +50,7 @@ h1 {
 }
 
 .banner .subtitle img {
-  width: 30%;
+  width: 90%;
   margin-bottom: 2rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -370,9 +370,6 @@ h1 {
 @media screen and (max-width: 920px) {
   .banner .subtitle {
     width: 100%;
-  }
-  .banner .subtitle img {
-    width: 40%;
   }
 }
 
