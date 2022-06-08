@@ -7,6 +7,7 @@ body {
   font-family: sans-serif;
   color: white;
   overflow-x: hidden;
+  background: black;
 }
 
 img {
@@ -29,11 +30,13 @@ img {
 .footer {
   background: black;
   margin-top: 0;
-  border-top: 8px solid #222;
   padding: 1rem 0 2rem 0;
   display: -ms-grid;
   display: grid;
   justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
   color: #808080;
 }
@@ -201,6 +204,10 @@ img {
   font-size: 26px;
 }
 
+.last-section {
+  border-bottom: 8px solid #222;
+}
+
 .form-login {
   display: -ms-grid;
   display: grid;
@@ -224,6 +231,15 @@ img {
   color: white;
   border: none;
   font-size: 30px;
+}
+
+.form-login button a {
+  text-decoration: none;
+  color: white;
+}
+
+.form-login button a:hover {
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .form-login i {
