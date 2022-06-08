@@ -35,20 +35,80 @@
 
 .modal-hero{
 
-    background: url(../img/la_casa_de_papel_modal.jpg) center;
     background-size: cover;
-    height: 60vh;
+    height: 50vh;
+    border-radius: 10px;
+    background-image: linear-gradient(
+
+        to bottom, 
+        rgba(0,0,0,0.8) 0%,
+        rgba(0,0,0,0.2) 20%,
+        rgba(20,20,20,0.2) 80%,
+        rgba(20,20,20,0.6) 100%
+    
+     ), url(../img/la_casa_de_papel_modal.jpg);
+
+    
 }
 
+.modal-infos{
+    
+    margin-top: 20px;
+    color: white;
+    text-align: justify;
+    padding: 10px;
 
-.modal-content{
+    
+}
 
-    background: #171717;
+.options_movie{
+
+    margin-bottom: 30px;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+
+    span:first-child{
+
+    color: #46d369;
+    font-size: 18px;
+    font-weight: bold;
+
+    }
+
+    span {
+
+        margin-right: 15px;
+    }
 
     img{
-        width: 100%;
+
+        width: 2rem;
+        height: 2rem;
+        margin-right: 15px;
+    }
+
+    i{
+        font-size: 24px;
+        margin-right: 15px;
     }
 }
+
+.modal-hero-infos{
+
+    margin-top: 8rem;
+    padding: 3.5rem;
+    color: white;
+
+    .img_modal{
+
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+}
+
+
 
 .container_{
 
