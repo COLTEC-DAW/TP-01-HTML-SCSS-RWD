@@ -4,4 +4,5 @@
 - [ ] Integrar as duas páginas
 - [ ] verificar a responsividade da página
 - [ ] Detalhes finais -> botões e etc
+- [ ] Fazer as animações das páginas
 - [ ] dockerfile ?
