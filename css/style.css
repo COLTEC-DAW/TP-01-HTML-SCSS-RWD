@@ -9,10 +9,20 @@ body {
 #hero {
   width: 100%;
   height: 100vh;
-  background-image: url(../images/hero-mobile.jpg);
+  background-image: url(https://www.tesla.com/tesla_theme/assets/img/_vehicle_redesign/roadster_and_semi/roadster/hero-mobile@2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 @media (min-width: 768px) {
@@ -21,23 +31,385 @@ body {
   }
 }
 
-.navbar-brand {
+#hero .navbar-brand {
   background-image: url(../images/logo.svg);
   background-repeat: no-repeat;
   width: 150px;
 }
 
-#navbarToggler {
+#hero #navbarToggler {
   font-size: 16px;
   font-weight: 600;
   color: #171A20;
 }
 
-#main-title {
+#hero #main-title {
   text-align: center;
   color: #5C5E62;
   font-size: 3.5rem;
   padding: auto;
   margin: 40px;
+}
+
+#hero #hero-bottom {
+  color: #ffffff;
+}
+
+#hero #hero-bottom .description-row {
+  padding: 25px;
+}
+
+#hero #hero-bottom .p-top {
+  font-size: 26px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+#hero #hero-bottom .p-bottom {
+  font-size: 16px;
+}
+
+#hero #hero-bottom .button-grid {
+  margin: 0px;
+  padding: 0px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+#hero #hero-bottom .button-grid .reserve-button {
+  width: 180% !important;
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  vertical-align: center;
+  text-transform: uppercase;
+}
+
+#hero #hero-bottom .container {
+  max-width: 720px;
+  text-align: center;
+}
+
+#video-stats {
+  /*     display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $background-color;
+
+    @include respond-above(xs){
+        .responsive-iframe-mobile{
+            //display: flex;
+            width: 768px;
+            height: 216px;
+            margin: 50px;
+        }
+    
+        .responsive-iframe-desktop{
+            display: none;
+        }
+    }
+     iframe {
+        width: 768px;
+        height: 216px;
+        margin: 50px;
+
+        @include respond-above(md) {
+            width: 1240px;
+            height: 349px;
+            margin: 100px;
+            display: block;
+        }
+    }
+ 
+    @include respond-above(md){
+        .responsive-iframe-mobile{
+            display: none;
+        }
+
+        .responsive-iframe-desktop{
+            //display: flex;
+            width: 1240px;
+            height: 349px;
+            margin: 100px;
+            //display: block;
+        }
+    } */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #000000;
+}
+
+#video-stats iframe {
+  width: 768px;
+  height: 216px;
+  margin: 50px;
+}
+
+@media (min-width: 992px) {
+  #video-stats iframe {
+    width: 1240px;
+    height: 349px;
+    margin: 100px;
+    display: block;
+  }
+}
+
+#video-stats #stats {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+#video-stats #stats .head {
+  text-align: left;
+  padding-left: 0;
+  border-top: 0;
+}
+
+#video-stats #stats .cell-left {
+  text-align: left;
+  padding-left: 0;
+}
+
+#video-stats #stats .cell-right {
+  text-align: right;
+  font-weight: bold;
+  padding-right: 0;
+}
+
+#video-stats #stats .last-row {
+  border-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  #video-stats #stats {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+#aero {
+  width: 100%;
+  height: 100vh;
+  padding-top: 0px;
+  margin-top: 0px;
+  background-image: url(../images/back.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150% auto;
+  background-color: #000000;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 768px) {
+  #aero {
+    background-size: 90% auto;
+  }
+}
+
+#aero .container {
+  width: 60%;
+  margin-top: 350px;
+}
+
+#aero .container .h2 {
+  font-size: 28px;
+  clear: both;
+  width: 90%;
+  text-align: left;
+}
+
+#aero .container .p {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  #aero .container {
+    margin-top: 450px;
+  }
+}
+
+#interior {
+  width: 100%;
+  height: 60vh;
+  background-color: #000000;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#interior .figure {
+  max-width: 100%;
+}
+
+#interior .figure .figure-caption {
+  margin: 40px;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+#interior .figure .figure-caption #caption-title {
+  margin-right: 325px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  #interior {
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #interior .figure {
+    max-width: 70%;
+  }
+  #interior .figure .figure-caption {
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  #interior .figure .figure-caption #caption-title {
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+#topview {
+  width: 100%;
+  height: 120vh;
+  background-image: url(../images/top.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 180% auto;
+  background-color: #000000;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-size: 18px;
+}
+
+#topview .topview-title {
+  margin-bottom: 20px;
+}
+
+#topview .container {
+  margin-bottom: 60px;
+}
+
+@media (min-width: 768px) {
+  #topview {
+    background-size: 110% auto;
+  }
+}
+
+#unveil {
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#unveil .video {
+  width: 768px;
+  height: 216px;
+}
+
+@media (min-width: 992px) {
+  #unveil .video {
+    width: 992px;
+    height: 768px;
+    margin-bottom: 0px;
+    display: block;
+  }
+}
+
+#unveil .unveil-text {
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: -100px;
+  margin-bottom: -180px;
+}
+
+.tesla-footer {
+  width: 100%;
+  background-color: #000000;
+  text-align: center;
+}
+
+.tesla-footer #vertical-line {
+  width: 1px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.25);
+  margin-bottom: 40px;
+}
+
+.tesla-footer .footer-button {
+  width: 200px !important;
+  margin: 5px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  vertical-align: center;
+  text-transform: uppercase;
+}
+
+.tesla-footer .tesla-roadster-footer {
+  margin-top: 70px;
+}
+
+.tesla-footer .tesla-roadster-footer .nav-link {
+  font-size: 14px;
+  text-decoration: underline;
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
