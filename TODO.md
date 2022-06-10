@@ -3,4 +3,5 @@
 - [ ] colocar os ícones
 - [ ] Integrar as duas páginas
 - [ ] verificar a responsividade da página
+- [ ] Detalhes finais -> botões e etc
 - [ ] dockerfile ?
