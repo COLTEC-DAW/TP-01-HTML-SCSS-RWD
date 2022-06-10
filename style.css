@@ -1,0 +1,399 @@
+/*Barra de navegação*/
+
+.navbar {
+    background-color: #f1f1f1;
+    border: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+nav ul {
+    margin: 0px;
+}
+
+.navbar-brand h2 {
+    margin-bottom: 0px;
+    padding-left: 5%;
+}
+
+.navbar-header {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.navbar-nav {
+    padding-right: 0px !important;
+}
+
+.navbar-collapse {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.link-menu {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.link-menu a {
+    color: #34B88A !important;
+    text-align: center !important;
+}
+
+.link-menu li {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.link-menu a:hover {
+    color: white !important;
+    background-color: #34B88A !important;
+    transition: 0.5s !important;
+}
+
+/*Outras classes*/
+
+.carousel-cursos {
+    margin-right: -5%;
+}
+
+/*Elementos individuais*/
+
+#carousel-cursos-indicators > li {
+    border-radius: 50%;
+}
+  
+#desappsCaption h2 {
+    background-color: #81A0E0;
+}
+  
+#autCaption h2 {
+    background-color: #81241F;
+}
+  
+#patCaption h2 {
+    background-color: #1C61BF;
+}
+  
+#infoCaption h2 {
+    background-color: #FFBC19;
+}
+  
+#eletCaption h2 {
+    background-color: #E8670C;
+}
+  
+#quimCaption h2 {
+    background-color: #5A4156;
+}
+  
+#biotecCaption h2 {
+    background-color: #34B88A;
+}
+
+/*Media queries*/
+
+@media screen and (max-width: 768px) {
+    .carousel-cursos h2 {
+      float: none;
+      text-align: center;
+      padding: 2%;
+      color: white;
+      font-size: 25.2px;
+      font-weight: 400;
+    }
+    .carousel-cursos p {
+        display: none;
+    }
+}
+  
+@media screen and (min-width: 768px) {
+    .carousel-cursos h2 {
+      float: right;
+      padding: 2%;
+      color: white;
+      font-size: 25.2px;
+      font-weight: 400;
+    }
+    .carousel-cursos p {
+      float: right;
+      clear: both;
+      text-align: start;
+      color: white;
+      border-radius: 15px;
+      background-color: #2f608c;
+      padding: 1%;
+      font-size: 18px;
+      -webkit-box-sizing: inherit;
+      box-sizing: inherit;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .link-menu a {
+        text-align: left !important;
+        color: #34B88A !important;
+
+    }
+
+    .link-menu ul a {
+        text-align: center !important;
+    }
+}
+
+
+/*Dropdowns */
+.listtype>li {
+    list-style-type: none;
+    left: 0 !important;
+}
+
+.cursoNoturno {
+    background-color: #212121;
+}
+
+.cursoNoturno a {
+    color: white !important;
+}
+
+.dropdown-menu a {
+    border: 0px;
+    border-bottom: 0px !important;
+    text-align: left !important;
+}
+
+.dropdown-menu {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    border: 0px;
+}
+
+.dropdown-toggle:hover {
+    background-color: #34B88A !important;
+    color: white !important;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    left: 0 !important;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px !important;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover>.dropdown-content {
+    display: block;
+    transition: 2s !important;
+}
+
+
+/* container-eventos*/
+#container_eventos {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.card_data{
+    font-size: 15px;
+    color: #999999;
+}
+
+/*link geral*/
+a {
+    color: #0D47A1;
+    text-decoration: none;
+}
+.butao{
+    margin-top: 12px;
+}
+.butao:hover{
+    background-color: #0D47A1 !important;
+    color: white !important;
+}
+
+/*About coltec*/
+.about{
+    background: url(https://www.coltec.ufmg.br/coltec-ufmg/wp-content/uploads/2018/05/sobre-blur.jpg);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2% 10%;
+}
+.btn-about{
+    color: white;
+    border: 2px solid white;
+    margin-top: 1%;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+}
+.btn-about:visited{
+    color: white;
+}
+.btn-about:hover{
+    color:black;
+    background-color: white;
+}
+.btn-about a{
+    background-color: transparent;
+    text-decoration: none;
+}
+.rules{
+    float: right;
+}
+
+/*Barra de pesquisa*/
+/*Ícone*/
+.input-icons i {
+    position: absolute;
+    size: 100%;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 0px;
+    min-width: 40px;
+}
+
+.input-group-text{
+    padding: 0%;
+    background-color: white;
+}
+
+/*Barra em si*/
+.barra-pesquisa{
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+/*Colunas de notícias*/
+/*Elementos individuais*/
+#cardProcessoSeletivo{
+    background-image:url("imgs/processoFundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cardConcursosBolsas{
+    background-image:url("imgs/provasFundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#botaoProcesso:hover{
+    background-color: #34B88A !important;
+    border-color: transparent;
+}
+
+#botaoConcursosBolsas:hover{
+    background-color: rgb(47, 96, 140) !important;
+    border-color: transparent;
+}
+
+#corProcessoSeletivo{
+    background-color: #34B88A !important;
+    border-color: transparent;
+}
+
+#corConcursosBolsas{
+    background-color: rgb(47, 96, 140) !important;
+    border-color: transparent;
+}
+
+/*Classes*/
+.titulo-cards-mainpage{
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-style: 'Roboto Condensend', sans-serif;
+}
+
+.botao-cards-mainpage{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-color: transparent;
+    font-weight: 400;
+}
+
+
+
+/*Round buttons*/
+.btn-circle{
+    color:#34B88A;
+    background-color: #ffffff;
+    border-color: #34B88A;
+    border-style: solid;
+}
+
+.btn-circle.btn-sm {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    font-size: 2.0em;
+    text-align: center;
+}
+.btn-circle.btn-md {
+    width: 50px;
+    height: 50px;
+    padding: 7px 10px;
+    border-radius: 25px;
+    font-size: 2.0em;
+    text-align: center;
+}
+.btn-circle.btn-xl {
+    width: 100px;
+    height: 100px;
+    padding: 10px 16px;
+    border-radius: 100px;
+    font-size: 2.0em;
+    text-align: center;
+}
+.btn-circle:hover{
+    color:#ffffff;
+    background-color: #34B88A;
+}
+.active{
+    color: white !important;
+    background-color: rgb(47, 96, 140) !important;
+}
+.img-carousel{
+    height: 300px;
+}
+@media (min-width: 1100px){
+    .img-carousel{
+        height: 700px;
+    }
+}

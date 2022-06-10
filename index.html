@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>COLTEC &#8211; Colégio Técnico da UFMG</title>
+  <link rel='dns-prefetch' href='//ajax.googleapis.com' />
+  <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+  <link rel='dns-prefetch' href='//s.w.org' />
+  <link rel="alternate" type="application/rss+xml" title="Feed para COLTEC &raquo;"
+    href="https://www.coltec.ufmg.br/coltec-ufmg" />
+  <link rel="alternate" type="application/rss+xml" title="Feed de comentários para COLTEC &raquo;"
+    href="https://www.coltec.ufmg.br/coltec-ufmg/?feed=comments-rss2" />
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https: //ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/7cf4f9269d.js" crossorigin="anonymous"></script>
+
+
+  <title>COLTEC - Curso de Desenvolvimento de Sistemas</title>
+</head>
+
+<body>
+  <header>
+
+    <!-- Barra que deve aparecer em sites dos sites do governo -->
+    <div id="barra-identidade">
+      <div id="barra-brasil">
+        <a target="_blank" href="http://brasil.gov.br"
+          style="background:#7F7F7F; height: 20px; padding:4px 0 4px 10px; display: block; font-family:sans,sans-serif; text-decoration:none; 	color:white; ">Portal
+          do Governo Brasileiro</a>
+      </div>
+      <script src="http://barra.brasil.gov.br/barra.js" type="text/javascript" defer async></script>
+    </div>
+    <!-- -->
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <!--Logo UFMG-->
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="http://www.coltec.ufmg.br/coltec-ufmg/wp-content/uploads/2018/05/cropped-logo-0.png"
+          style="height: 60px; width: 60px;" width="50" height="50" class="d-inline-block" alt="Logo" id="logo">
+        <img src="http://www.coltec.ufmg.br/coltec-ufmg/wp-content/uploads/2018/06/escrito.png" style="height: 30px;"
+          width="150" class="d-inline-block align-middle" alt="Logo" id="logo-text">
+        <img src="http://www.coltec.ufmg.br/coltec-ufmg/wp-content/uploads/2018/07/ufmg_coltec.png" width="50"
+          height="20" class="d-inline-block mt-auto" alt="ufmg" id="logo-ufmg">
+      </a>
+
+      <div>
+        <div class="col-sm-12">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavBar"
+            aria-controls="myNavBar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="navbar-collapse collapse" id="myNavBar" aria-expanded="false">
+        <ul class="nav navbar-nav navbar-right col-md-12 col-lg-12">
+          <!--teia-->
+          <li class="nav-item col-md-4 col-lg-1">
+            <a class="nav-link" href="https://www.teiacoltec.org">Teia Coltec</a>
+          </li>
+          <!--administracao-->
+          <li class="dropdown link-menu col-md-4 col-lg-2">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Administração
+            </a>
+            <ul class="dropdown-menu dropdown-center dropdown-content">
+              <li><a class="dropdown-item" href="#">CADEC</a></li>
+              <li><a class="dropdown-item" href="#">COPEP</a></li>
+              <li><a class="dropdown-item" href="#">Diretoria</a></li>
+              <a class="nav-link dropdown-toggle" href="#secaoadmin" role="button" data-bs-toggle="collapse"
+                data-bs-target="#secaoadmin" aria-controls="secaoadmin" aria-expanded="false">
+                Seções Administrativas
+              </a>
+              <ul class="link-menu listtype collapse" id="secaoadmin">
+                <li><a href="#">Seção Almoxarifado/Patrimônio</a></li>
+                <li><a href="#">Seção Compras</a></li>
+                <li><a href="#">Seção Contabil/Financeira</a></li>
+                <li><a href="#">Seção Ensino/Estágio</a></li>
+                <li><a href="#">Seção Logística e Predial </a></li>
+                <li><a href="#">Seção Pessoal</a></li>
+                <li><a href="#">Núcleo Pedagógico-Nuped</a></li>
+                <li><a href="#">SEAP/SAS</a></li>
+              </ul>
+            </ul>
+          </li>
+          <!--cursos-->
+          <li class="dropdown link-menu col-md-4 col-lg-2">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Cursos
+            </a>
+            <ul class="dropdown-menu dropdown-center dropdown-content collapse">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="collapse"
+                data-bs-target="#integral" aria-controls="integral" aria-expanded="false">
+                Cursos Integrados
+              </a>
+              <ul class="link-menu listtype collapse" id="integral">
+                <li><a class="dropdown-item" href="./Pg-2.html">Info</a></li>
+                <li><a class="dropdown-item" href="#">Eletras </a></li>
+                <li><a class="dropdown-item" href="#">Quimica </a></li>
+                <li><a class="dropdown-item" href="#">Automação Indust.</a></li>
+                <li><a class="dropdown-item" href="#">Patola</a></li>
+              </ul>
+              <a class="nav-link dropdown-toggle cursoNoturno" href="#subsequente" role="button"
+                data-bs-toggle="collapse" data-bs-target="#subsequente" aria-controls="subsequente"
+                aria-expanded="false">
+                Cursos Subsequentes
+              </a>
+              <ul class="link-menu listtype collapse" id="subsequente">
+                <li><a data-toggle="collapse cursoNoturno" href="#">Biotech</a></li>
+                <li><a data-toggle="collapse cursoNoturno" href="#">DAM</a></li>
+              </ul>
+            </ul>
+          </li>
+          </li>
+
+          <!--Contatos-->
+          <li class="dropdown link-menu col-md-4 col-lg-2">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contatos
+            </a>
+            <ul class="dropdown-menu dropdown-center dropdown-content">
+              <li><a class="dropdown-item" href="#">Setores Acadêmicos / Professores</a></li>
+              <li><a class="dropdown-item" href="#">Seções Administrativas / TAES </a></li>
+            </ul>
+          </li>
+
+          <!--Portais-->
+          <li class="dropdown link-menu col-md-4 col-lg-2">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Portais
+            </a>
+            <ul class="dropdown-menu dropdown-center dropdown-content">
+              <li><a class="dropdown-item" href="#">
+                  Coltrekking
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a></li>
+              <li><a href="#">Biblioteca</a></li>
+              <li><a href="#">Estágio</a></li>
+              <li>
+                <a class="nav-link dropdown-toggle" href="#sub3" role="button" data-bs-toggle="collapse"
+                  data-bs-target="#sub3" aria-controls="sub3" aria-expanded="false">
+                  Moodle
+                </a>
+                <ul id="sub3" class="link-menu listtype collapse">
+                  <li>
+                    <a href="https://virtual.ufmg.br/coltec/my/">
+                      Moodle COLTEC-UFMG <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://webservercoltec.coltec.ufmg.br/coltecead/">
+                      Moodle Língua Inglesa <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#">Sistema de notas</a></li>
+              <li>
+                <a href="#">
+                  Sistema de reservas
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <!--Projetos-->
+          <li class="dropdown link-menu col-md-4 col-lg-2">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Projetos
+            </a>
+            <ul class="dropdown-menu dropdown-center dropdown-content">
+              <li><a class="dropdown-item" href="#">Ensino</a></li>
+              <li><a class="dropdown-item" href="#">Extensão</a></li>
+              <li><a class="dropdown-item" href="#">Pesquisa</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+
+  <!--Carousel-------------------------------------------------------------------------------------------->
+  <div id="carouselCursos" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselCursos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselCursos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselCursos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselCursos" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselCursos" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselCursos" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#carouselCursos" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imgs/editadas/analise.png" class="d-block w-100">
+        <div class="carousel-caption carousel-cursos d-none d-md-block" id="patCaption">
+            <h2>Técnico em Análises Clínicas</h2>
+            <p>Tradição e qualidade na formação profissional</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imgs/editadas/automas.png" class="d-block w-100">
+        <div class="carousel-caption carousel-cursos d-none d-md-block" id="autCaption">
+            <h2>Técnico em Automação Industrial</h2>
+            <p>Preparando profissionais de ponta para o mercado de trabalho</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imgs/editadas/biotec.jpg" class="d-block w-100">
+        <div class="carousel-caption carousel-cursos d-none d-md-block" id="biotecCaption">
+            <h2>Técnico em Biotecnologia</h2>
+            <p>Geração de profissionais capacitados para trabalhar com novas tecnologias</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imgs/editadas/desApps.png" class="d-block w-100">
+        <div class="carousel-caption carousel-cursos d-none d-md-block" id="desappsCaption">
+            <h2>Técnico em Desenvolvimento de Aplicativos Móveis</h2>
+            <p>Aprenda a criar novos aplicativos e sistemas móveis eficientes e de qualidade</p>  
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imgs/editadas/esletras.png" class="d-block w-100">
+        <div class="carousel-caption carousel-cursos d-none d-md-block" id="eletCaption">
+            <h2>Técnico em Eletrônica</h2>
+            <p>Formando novos técnicos preparados para os desafios do mercado de trabalho globalizado</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imgs/editadas/info.png" class="d-block w-100">
+        <div class="carousel-caption carousel-cursos d-none d-md-block" id="infoCaption">
+          <h2>Técnico em Desenvolvimento de Sistemas</h2>
+          <p>Fábrica de talentos em Tecnologia da Informação: excelência e vanguarda</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imgs/editadas/quimica.png" class="d-block w-100">
+        <div class="carousel-caption carousel-cursos d-none d-md-block" id="quimCaption">
+            <h2>Técnico em Química</h2>
+            <p>Desenvolvendo sólidos conhecimentos práticos e profissionais</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselCursos" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselCursos" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+  <!--Barra de pesquisa------------------------------------------------------------------------------------->
+  <div class="container">
+    <form class="row row-cols-4 barra-pesquisa">
+      <div class="col input-group">
+        <!--<div class="input-icons">
+          <span class="unit"><i class="fa-solid fa-magnifying-glass icon"></i></span>
+          <input class="form-control" type="text">
+        </div>-->
+        <span class="input-group-text"><i class="fa-solid fa-magnifying-glass icon"></i></span>
+        <input type="text" class="form-control" placeholder="Pesquisa">
+      </div>
+    </form>
+  </div>
+  
+
+  <!--Colunas de notícias------------------------------------------------------------------------------------>
+  <div class="container">
+    <div class="row">
+      <div class="col col-lg-6 col-sm-12">
+        <div class="card cardsMainPage" id="cardProcessoSeletivo">
+          <div class="card-body text-center">
+            <h3 class="titulo-cards-mainpage">Processo Seletivo</h3>
+            <button type="button" class="btn btn-primary botao-cards-mainpage" id="botaoProcesso">Processo</button>
+          </div>
+        </div>
+      </div>
+      <div class="col col-lg-6 col-sm-12">
+        <div class="card cardsMainPage" id="cardConcursosBolsas">
+          <div class="card-body text-center">
+            <h3 class="titulo-cards-mainpage">Concursos Docentes e Bolsas de Monitoria</h3>
+            <button type="button" class="btn btn-primary botao-cards-mainpage">Informações</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-sm-12">
+        <div class="list-group my-2">
+          <div href="#" class="list-group-item list-group-item-action active" aria-current="true" id="corProcessoSeletivo">
+            <div class="d-flex w-100 justify-content-center">
+              <h3 class="mb-1">Notícias Acadêmicas</h3>
+           </div>
+          </div>
+        </div>
+        <div class="news">
+          <div class="card mx-lg-3 mx-sm-1 my-2" style="width: 18rem;">
+            <div class="card-body">
+              <a href="https://www.coltec.ufmg.br/coltec-ufmg/?p=9891"><h4 class="card-text">EDITAL DE DEFESA DE EXPERIÊNCIAS PROFISSIONAIS</h4></a>
+              <p class="card_data">03/06/2022</p>
+            </div>
+          </div>
+          <div class="card mx-lg-3 mx-sm-1 my-2" style="width: 18rem;">
+            <img src="https://www.coltec.ufmg.br/coltec-ufmg/wp-content/uploads/2022/05/alteracao-de-data.png" class="card-img-top center" alt="Live “Aço e Ligas extraordinários">
+            <div class="card-body">
+              <a href="https://www.coltec.ufmg.br/coltec-ufmg/?p=9841"><h4 class="card-text">Atenção Pais e responsáveis alunos primeiros anos: alteração da data reunião de pais</h4></a>
+              <p class="card_data">30/05/2022</p>
+            </div>
+          </div>
+          <div class="card mx-lg-3 mx-sm-1 my-2" style="width: 18rem;">
+            <img src="https://www.coltec.ufmg.br/coltec-ufmg/wp-content/uploads/2022/04/uso-obrigatorio-de-mascaras.png" class="card-img-top center" alt="Parceria Instituto Confúcio/Coltec">
+            <div class="card-body">
+              <a href="https://www.coltec.ufmg.br/coltec-ufmg/?p=9607"><h4 class="card-text">Nota à comunidade - Uso de máscaras no COLTEC e UFMG</h4></a>
+              <p class="card_data">28/04/2022</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-sm-12">
+        <div class="list-group my-2">
+          <div href="#" class="list-group-item list-group-item-action active" aria-current="true" id="corConcursosBolsas">
+            <div class="d-flex w-100 justify-content-center">
+              <h3 class="mb-1">Notícias Administrativas</h3>
+           </div>
+          </div>
+        </div>
+        <div class="news-right">
+          <div class="card mx-lg-3 mx-sm-1 my-2" style="width: 18rem;">
+            <div class="card-body">
+              <a href="https://www.coltec.ufmg.br/coltec-ufmg/?p=9571"><h4 class="card-text">PROCESSO SELETIVO PARA PROFESSOR SUBSTITUTO DE TECNOLOGIA DA INFORMAÇÃO – 1 VAGA</h4></a>
+              <p class="card_data">24/05/2022</p>
+            </div>
+          </div>
+          <div class="card mx-lg-3 mx-sm-1 my-2" style="width: 18rem;">
+            <div class="card-body">
+              <a href="https://www.coltec.ufmg.br/coltec-ufmg/?p=9574"><h4 class="card-text">PROCESSO SELETIVO PARA PROFESSOR SUBSTITUTO DE CIÊNCIAS SOCIAIS – 1 VAGA</h4></a>
+              <p class="card_data">24/05/2022</p>
+            </div>
+          </div>
+          <div class="card mx-lg-3 mx-sm-1 my-2" style="width: 18rem;">
+            <div class="card-body">
+              <a href="https://www.coltec.ufmg.br/coltec-ufmg/?p=9716"><h4 class="card-text">EDITAL DE SELEÇÃO DE CANDIDATOS A ESTÁGIO NÃO OBRIGATÓRIO NO COLÉGIO TÉCNICO DA UFMG</h4></a>
+              <p class="card_data">16/05/2022</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <a class="btn border-primary butao" href="https://www.coltec.ufmg.br/coltec-ufmg/?page_id=75">Ver todas as notícias Acadêmicas e Administrativas</a>
+    </div>
+
+  </div>
+
+
+
+
+  <!--Acoltec no contece------------------------------------------------------------------------------------------------>
+  <hr>
+
+  <div class="container-fluid" id="container_eventos">
+    <h3>Acontece no COLTEC</h3>
+    <div class="row">
+      <div class="card mx-lg-3 mx-sm-1" style="width: 18rem;">
+        <img src="https://www.coltec.ufmg.br/coltec-ufmg/wp-content/uploads/2022/04/WhatsApp-Image-2022-04-29-at-17.18.23-285x175.jpeg" class="card-img-top center" alt="Oficinas de Alemão e Italiano no COLTEC-UFMG 2022">
+        <div class="card-body">
+          <a href="https://www.coltec.ufmg.br/coltec-ufmg/?p=9635"><h4 class="card-text">Oficinas de Alemão e Italiano no COLTEC-UFMG 2022</h4></a>
+          <p class="card_data">29/04/2022</p>
+        </div>
+      </div>
+      <div class="card mx-lg-3 mx-sm-1" style="width: 18rem;">
+        <img src="https://www.coltec.ufmg.br/coltec-ufmg/wp-content/uploads/2022/04/WhatsApp-Image-2022-04-25-at-18.22.52-285x175.jpeg" class="card-img-top center" alt="Live “Aço e Ligas extraordinários">
+        <div class="card-body">
+          <a href="https://www.coltec.ufmg.br/coltec-ufmg/?p=9559"><h4 class="card-text">Live “Aço e Ligas extraordinários</h4></a>
+          <p class="card_data">25/04/2022</p>
+        </div>
+      </div>
+      <div class="card mx-lg-3 mx-sm-1" style="width: 18rem;">
+        <img src="https://www.coltec.ufmg.br/coltec-ufmg/wp-content/uploads/2021/05/Diapositivo1-285x175.png" class="card-img-top center" alt="Parceria Instituto Confúcio/Coltec">
+        <div class="card-body">
+          <a href="https://www.coltec.ufmg.br/coltec-ufmg/?p=7468"><h4 class="card-text">Parceria Instituto Confúcio/Coltec</h4></a>
+          <p class="card_data">25/02/2022</p>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <a class="btn border-primary butao" href="#">Ver todos os Eventos</a>
+    </div>
+  </div>
+
+  <hr>
+
+  <!--Botoes------------------------------------------------------------------------------------------------->
+
+  <p></p>
+  <div class="container-fluid">
+    <div class="row w-75 mx-auto">
+      <div class="d-inline-block col-xs-6 col-sm-4 col-md-2 text-center"> 
+        <a href="http://www.redesemfio.ufmg.br/como-usar/"><button class="btn-circle btn-xl btn-sm"><i class="fa fa-wifi"></i></button></a>
+        <br><span class="btn_subtitle" style="color:#34B88A">Rede sem fio</span>
+      </div>
+      <div class="d-inline-block col-xs-6 col-sm-4 col-md-2 text-center">  
+        <a href="https://ufmg.br/servicos/onibus"><button class="btn-circle btn-xl btn-sm"><i class="fa fa-bus"></i></button></a>
+        <br><span class="btn_subtitle" style="color:#34B88A">Ônibus</span>
+      </div>
+      <div class="d-inline-block col-xs-6 col-sm-4 col-md-2 text-center">  
+        <a href="https://www.bu.ufmg.br/bu/"><button class="btn-circle btn-xl btn-sm"><i class="fa fa-book"></i></button></a>
+        <br><span class="btn_subtitle" style="color:#34B88A">Biblioteca</span>
+      </div>
+      <div class="d-inline-block col-xs-6 col-sm-4 col-md-2 text-center">  
+        <a href="http://www.coltec.ufmg.br/coltec-ufmg/?page_id=38"><button class="btn-circle btn-xl btn-sm"><i class="fa fa-briefcase"></i></button></a>
+        <br><span class="btn_subtitle" style="color:#34B88A">Estágio</span>
+      </div>
+      <div class="d-inline-block col-xs-6 col-sm-4 col-md-2 text-center">  
+        <a href="http://www.coltec.ufmg.br/coltec-ufmg/?p=2776"><button class="btn-circle btn-xl btn-sm"><i class="fa fa-calendar"></i></button></a>
+        <br><span class="btn_subtitle" style="color:#34B88A">Calendário Acadêmico</span>
+      </div>
+      <div class="d-inline-block col-xs-6 col-sm-4 col-md-2 text-center">  
+        <a href="http://www.coltec.ufmg.br/coltec-ufmg/?page_id=691"><button class="btn-circle btn-xl btn-sm"><i class="fa fa-clock-o"></i></button></a>
+        <br><span class="btn_subtitle" style="color:#34B88A">Horários de Aula</span>
+      </div>
+    </div>
+  </div>
+  <p></p>
+
+  <!--Sobre o coltec----------------------------------------------------------------------------------------->
+  <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 about">
+    <h1 style="font-size: 28px; margin-bottom: 15px;">Sobre o COLTEC</h1>
+    <p class="text-justify" style="font-size: 18px;">O COLTEC foi criado em 1969, a partir de convênio celebrado entre o Conselho Britânico, a UFMG, o CNPq e o MEC, com a finalidade de atender à demanda de formação de profissionais técnicos de nível médio nas áreas de Patologia Clínica, Instrumentação, Eletrônica e Química.Em 1981, o Conselho Universitário da UFMG estabeleceu, por meio da resolução 25/81 de 06 de novembro daquele ano, as diretrizes para o Centro Pedagógico, Unidade Especial formada pela Escola Fundamental e COLTEC, vinculado à FaE. Essas diretrizes gerais definiram a nova unidade como um espaço de experimentação pedagógica e curricular. Até 1997, o Colégio Técnico ofereceu quatro cursos técnicos de nível médio na modalidade integrado, nos quais os alunos estudavam em horário integral. Em conformidade com o Art. 2º da Portaria no 646, de 14 de maio de 1997, a escola passou a oferecer Ensino Profissional, de nível técnico, concomitante ao Ensino Médio.</p>
+
+    <a class="btn btn-about" href="https://www.coltec.ufmg.br/coltec-ufmg/?page_id=84%22%3ESaiba Mais">Saiba mais</a>
+    <a class="btn btn-about rules" href="http://www.coltec.ufmg.br/coltec-ufmg/wp-content/uploads/2018/07/NORMAS-COLTEC-2018-CURSOS-INTEGRADOS.pdf%22%3ENormas do Coltec">Normas do Coltec</a>
+    <a id="projeto_about" class="btn btn-about rules" style="margin-right: 5px;" href="http://www.coltec.ufmg.br/coltec-ufmg/wp-content/uploads/2018/07/PPP-2017-p%C3%B3s-parecer-PROGRAD_17.10.2017.pdf" target="_blank" rel="noopener">Projeto Político Pedagógico</a>
+  </div>
+
+
+  <!--Footer------------------------------------------------------------------------------------------------>
+  <div class="container-fluid">
+    <footer class="row pt-5" style="background-color: #0A0F30;">
+        <div class="d-flex flex-wrap mx-auto col-12 col-lg-6 justify-content-between">
+            <img src="./Assets/NovaLogo.png" style="width: 150px;">
+            <button class="rounded-circle" style="width: 80px; height: 80px">
+                <i class="fa-solid fa-phone fa-xl"></i>
+            </button>
+            <div>
+                <h2 class="text-white">Redes Sociais</h2>
+                <button class="rounded-circle" style="width: 30px;">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </button>
+                <button class="rounded-circle" style="width: 30px;">
+                    <i class="fa-brands fa-twitter"></i>
+                </button>
+                <button class="rounded-circle" style="width: 30px;">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </button>
+                <button class="rounded-circle" style="width: 30px;">
+                    <i class="fa-brands fa-instagram"></i>
+                </button>
+            </div>
+        </div>
+        <div class="col-12 col-lg-8"></div>
+        <div class="col-12 col-lg-6 text-white mx-auto">
+            <hr>
+        </div>
+        <div class="col-lg-8"></div>
+        <div class="col-12 col-lg-6 text-white mx-auto">
+            <p>&copy;2018 Colégio Técnico - Universidade Federal de Minas Gerais - Av. Antônio Carlos, 6627 -
+                Pampulha, Belo Horizonte - MG - CEP 31270-901 - CNPJ: 17.217.985/0010-03
+            </p>
+            <p>
+                Desenvolvido por: Bernardo Nunes, Ícaro Emídio e Raul Mansur - Orientação: Fabrício Riff
+                Fotografias: Professor José Eduardo Borges Moreira (Ze Du) e Professor Humberto Honda</p>
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>
