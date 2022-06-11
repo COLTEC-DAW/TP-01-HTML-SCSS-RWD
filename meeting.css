@@ -1,0 +1,86 @@
+div
+{
+    display: block;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: rgba(0,0,0,.87);
+    margin: 0;
+    text-size-adjust: 100%;
+}
+
+.background
+{
+    background: #202124;
+}
+
+.textMeet
+{
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    justify-content: center;
+    float: left;
+}
+
+.textPlayBar
+{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.centeritems
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.backgroundIcons
+{
+    background: #696969;
+    border: solid #696969 3px;
+    border-radius:50%;
+    width: 35px;
+}
+
+.items
+{
+    margin:auto;
+    bottom: auto;
+}
+.imgMeet
+{
+    margin:04rem;
+    width:70%;
+    height:70%;
+    border-radius:50%;
+}
+.imgIcon
+{
+    width:25px;
+    height:25px;
+}
+
+.posBar
+{
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    box-sizing: border-box;
+    display: flex;
+    height: 5rem;
+    margin-bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100vw;
+    z-index: 100;
+}
+

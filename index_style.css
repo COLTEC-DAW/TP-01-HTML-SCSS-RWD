@@ -1,0 +1,152 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  color: rgb(59, 49, 49);
+  margin-top: 5%;
+  margin-left: 5%;
+  font-size: 270%;
+  justify-content: center;
+  margin-top: 15%;
+  
+}
+.input-group {
+  height: 150%;
+  margin-left: 110%;
+  margin-top: -14%;
+}
+
+#participar{
+
+
+  margin-left: 28%;
+
+
+}
+
+#information {
+  
+  margin-top: 5%;
+  margin-left: 5%;
+  font-size: 110%;
+  justify-content: center;
+  letter-spacing: .00625em;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  padding-top: 1.5em;
+  color: #5f6368;
+  color: var(--gm-color-caption,#5f6368);
+}
+
+h3 {
+  color: #5f6368;
+  margin-top: 1%;
+  margin-left: 5%;
+  font-size: 118%;
+  justify-content: center;
+}
+
+.btn-primary{
+  width: 150%;
+  height: 150%;
+  justify-content: center;
+  margin-left: 80%;
+  margin-top: 40%;
+  font-size: 100%;
+
+}
+
+.navbar-brand {
+  color: #5f6368;
+  font-family: "Product Sans",Arial,sans-serif;
+  font-size: 22px;
+}
+
+#navbarToggler {
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+  color: #5f6368;
+}
+
+.material-symbols-outlined{
+
+margin-left: 5%;
+margin-top: 5%;
+}
+
+#pfp{
+
+margin-top: -5%;
+border-radius:50%;
+
+}
+
+#help{
+
+margin-left: 10%;
+
+}
+
+#settings{
+margin-right: 10%
+
+}
+
+#hora{
+margin-left: -80%;
+margin-top: 8%;
+width: 200%;
+}
+
+.carousel{
+margin-right: 18%;
+margin-top: -18%;
+}
+
+.carousel-caption{
+margin: -15%;
+color:rgb(59, 49, 49)
+}
+
+.carousel-indicators{
+margin:-20%
+}
+
+.w-80{
+margin: 10%;
+}
+
+.carousel-control-prev{
+color: rgb(59, 49, 49);
+}
+
+.carousel-control-next{
+color: rgb(59, 49, 49);
+}
+
+@media(max-width: 768px){
+.carousel{
+  margin-top: 10%;
+}
+
+.input-group {
+  height: 150%;
+  margin-left: 2%;
+  margin-top: 8%;
+}
+
+.btn-primary{
+  width: 150%;
+  height: 150%;
+  justify-content: center;
+  margin-left: 5%;
+  margin-top: 40%;
+  font-size: 100%;
+
+}
+}
