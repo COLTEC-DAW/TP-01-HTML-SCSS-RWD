@@ -1,0 +1,58 @@
+@font-face{
+    font-family: "Avenir Roman";
+    src: url("avenir-roman.ttf") format(truetype);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #070a17; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Avenir Roman", sans-serif;
+    color: #f9f9f9;
+}
+
+.logo{
+    max-width: 10em;
+    margin: 1.5em; 
+}
+
+.button1{
+    background: #2d57ff;
+    height: 3em;
+    width: 21em;
+    margin-bottom: 9em;
+    margin: 1em;
+    align-items: center;
+    border-radius: .1em;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Avenir Roman", sans-serif;
+    font-size: 1em;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+
+.text-box{
+    height: 3em;
+    width: 21em;
+}
+
+.footnote{
+    font-size: 1em;
+    font-weight: 350;
+    letter-spacing: .05em;
+}
+
+h1{
+    font-size: 1.5em;
+    letter-spacing: .05em;
+}
