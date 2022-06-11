@@ -32,9 +32,13 @@ body {
 }
 
 #hero .navbar-brand {
+  margin-left: 20px;
+  margin-right: 20px;
   background-image: url(../images/logo.svg);
   background-repeat: no-repeat;
-  width: 150px;
+  background-size: 100px;
+  width: 250px;
+  height: 40px;
 }
 
 #hero #navbarToggler {
@@ -57,11 +61,12 @@ body {
 
 #hero #hero-bottom .description-row {
   padding: 25px;
+  font-size: 20px;
 }
 
 #hero #hero-bottom .p-top {
-  font-size: 26px;
-  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-family: Arial, sans-serif;
   font-weight: bold;
   margin-bottom: 0;
 }
@@ -73,18 +78,26 @@ body {
 #hero #hero-bottom .button-grid {
   margin: 0px;
   padding: 0px;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
 }
 
 #hero #hero-bottom .button-grid .reserve-button {
-  width: 180% !important;
+  width: 100%;
   color: #ffffff;
   background-color: transparent;
   border: 2px solid #ffffff;
   border-radius: 30px;
   vertical-align: center;
   text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  #hero #hero-bottom .button-grid .reserve-button {
+    width: 180%;
+  }
+}
+
+#hero #hero-bottom .arrow-button {
+  color: #ffffff;
 }
 
 #hero #hero-bottom .container {
@@ -393,7 +406,7 @@ body {
 }
 
 .tesla-footer .footer-button {
-  width: 200px !important;
+  width: 180px !important;
   margin: 5px;
   color: #ffffff;
   background-color: transparent;

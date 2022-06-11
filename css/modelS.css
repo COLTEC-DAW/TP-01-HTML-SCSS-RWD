@@ -1,370 +1,268 @@
-body{
-
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+body {
+  font-family: "Raleway", sans-serif;
 }
 
-#div1{
-
-    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/8a74d206-66dc-4386-8c7a-88ff32174e7d/bvlatuR/std/4096x2560/Model-S-Main-Hero-Desktop-LHD");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 3em;
-
+#div1 {
+  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/8a74d206-66dc-4386-8c7a-88ff32174e7d/bvlatuR/std/4096x2560/Model-S-Main-Hero-Desktop-LHD");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 3em;
 }
 
-#div2{
-
-    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/c0c475f7-2856-46e1-87ab-dd67ec8dd43f/bvlatuR/std/2880x1800/MS-Interior-Hero-Desktop");
-    background-repeat: no-repeat;
-    background-size: cover;
-
+#div1 .navbar {
+  color: #171A20;
 }
 
-#div3{
-
-    background-color: black;
-
+#div1 .navbar-brand {
+  background-image: url(../images/logo.svg);
+  background-repeat: no-repeat;
+  width: 150px;
 }
 
-.nav1{
-
-    padding-left: 32em;
-
-}
-.nav2, .nav3, .nav4{
-
-    margin-left: 2em;
-
-}
-.nav5{
-
-    margin-left: 21em;
-
+#div1 #navbarToggler {
+  font-size: 16px;
+  font-weight: 600;
+  color: #171A20;
 }
 
-.nav6, .nav7{
-
-    margin-left: 1em;
-
+#div2 {
+  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/c0c475f7-2856-46e1-87ab-dd67ec8dd43f/bvlatuR/std/2880x1800/MS-Interior-Hero-Desktop");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
-
-.nav1, .nav2, .nav3, .nav4, .nav5, .nav6, .nav7{
-
-    display: inline;
-
+#div3 {
+  background-color: black;
 }
 
-.nomecarro1{
-
-    padding-top: 3em;
-    text-align: center;
-
+.nomecarro1 {
+  padding-top: 3em;
+  text-align: center;
 }
 
-.nomecarro2{
-
-    text-align: center;
-
+.nomecarro2 {
+  text-align: center;
 }
 
-.dadoscarro{
-
-    margin-left: 30em;
-    margin-right: 30em;
-    margin-top: 35em;
-    padding-bottom: 2em;
-    font-size: 1.05em;
-
+.dadoscarro {
+  margin-left: 30em;
+  margin-right: 30em;
+  margin-top: 35em;
+  padding-bottom: 2em;
+  font-size: 1.05em;
 }
 
-.col{
-
-    text-align: center;
-    font-size: 1em;
-    color: white;
-
+.col {
+  text-align: center;
+  font-size: 1em;
+  color: white;
 }
 
-.subtitulo{
-
-    text-align: center;
-    padding-top: 2em;
-    color: white;
-
+.subtitulo {
+  text-align: center;
+  padding-top: 2em;
+  color: white;
 }
 
-.carousel-item video{
-
-    width: 100%;
+.carousel-item video {
+  width: 100%;
 }
 
-#subtitulo1{
-
-    padding-bottom: 37em;
-
+#subtitulo1 {
+  padding-bottom: 37em;
 }
 
-#carrossel1{
-
-    padding-bottom: 1em;
-
+#carrossel1 {
+  padding-bottom: 1em;
 }
 
-#container1{
-
-    padding-top: 5em;
-
+#container1 {
+  padding-top: 5em;
 }
 
-#textocontainer1{
-
-    padding-top: 7em;
-
+#textocontainer1 {
+  padding-top: 7em;
 }
 
-#textocontainer2{
-
-    padding-left: 3em;
-
+#textocontainer2 {
+  padding-left: 3em;
 }
 
-#textocontainer1, #textocontainer2, #textocontainer3{
-
-    text-align: justify;
-
-} 
-
-#textocontainer3{
-
-    margin-bottom: 9em;
-
+#textocontainer1,
+#textocontainer2,
+#textocontainer3 {
+  text-align: justify;
 }
 
-.imagemcontainer{
-
-    width: 35em;
-    height: 20em;
-    padding-bottom: 3em;
-
+#textocontainer3 {
+  margin-bottom: 9em;
 }
 
-#div4{
-
-    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/08585f00-c0b7-4bda-80e4-2b78406b5582/bvlatuR/std/4096x2560/Model-S-Performance-Hero-Desktop-LHD");
-    background-repeat: no-repeat;
-    background-size: cover;
-
+.imagemcontainer {
+  width: 35em;
+  height: 20em;
+  padding-bottom: 3em;
 }
 
-.dadoscarro2{
-
-    margin-left: 25em;
-    margin-right: 25em;
-    font-size: 1.4em;
-
+#div4 {
+  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/08585f00-c0b7-4bda-80e4-2b78406b5582/bvlatuR/std/4096x2560/Model-S-Performance-Hero-Desktop-LHD");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.dadoscarro3{
-
-    padding-top: 37em;
-    padding-bottom: 5em;
-    color: rgb(0, 0, 0);
-
+.dadoscarro2 {
+  margin-left: 25em;
+  margin-right: 25em;
+  font-size: 1.4em;
 }
 
-.carousel-caption{
-
-    position: relative;
-    left: auto;
-    right: auto;
-    padding-right: 25em;
-    padding-left: 25em;
-    margin-top: 5em;
-
+.dadoscarro3 {
+  padding-top: 37em;
+  padding-bottom: 5em;
+  color: black;
 }
 
-#container2{
-
-    padding-top: 5em;
-
+.carousel-caption {
+  position: relative;
+  left: auto;
+  right: auto;
+  padding-right: 25em;
+  padding-left: 25em;
+  margin-top: 5em;
 }
 
-.texto{
-
-    color:black;
-    text-align: justify;
-
+#container2 {
+  padding-top: 5em;
 }
 
-#textinho{
-
-    padding-left:  15em;
-
+.texto {
+  color: black;
+  text-align: justify;
 }
 
-#botao{
-
-    border-radius: 5em;
-    width: 10em;
-    height: 2.5em;
-    margin-left: 15em;
-    margin-top: 1em;
-    background-color: white;
-    margin-bottom: 3em;
-
+#textinho {
+  padding-left: 15em;
 }
 
-#botao:hover{
-
-    background-color: black;
-    color: white;
-
+#botao {
+  border-radius: 5em;
+  width: 10em;
+  height: 2.5em;
+  margin-left: 15em;
+  margin-top: 1em;
+  background-color: white;
+  margin-bottom: 3em;
 }
 
-#div6{
-
-    background-color: rgb(224, 224, 224);
-    
+#botao:hover {
+  background-color: black;
+  color: white;
 }
 
-#textinho2{
-
-    padding-top: 15em;
-    padding-left: 25em;
-    padding-right: 30em;
-    text-align: justify;
-
+#div6 {
+  background-color: #e0e0e0;
 }
 
-#texto-motor{
-
-    text-align: justify;
-    padding-bottom: 2em;
-
+#textinho2 {
+  padding-top: 15em;
+  padding-left: 25em;
+  padding-right: 30em;
+  text-align: justify;
 }
 
-.motor{
-
-    border-radius: 2em;
-    margin-left: 13em;
-    width: 80%;
-    margin-top: 5em;
-    margin-bottom: 3em;
-
+#texto-motor {
+  text-align: justify;
+  padding-bottom: 2em;
 }
 
-.texto-escuro{
-
-    color: black;
-
+.motor {
+  border-radius: 2em;
+  margin-left: 13em;
+  width: 80%;
+  margin-top: 5em;
+  margin-bottom: 3em;
 }
 
-#imagem1{
-
-    height: 60em;
-    width: 100%;
-
+.texto-escuro {
+  color: black;
 }
 
-#div7{
-
-    background-color:black;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+#imagem1 {
+  height: 60em;
+  width: 100%;
 }
 
-#div8{
-
-    padding-top: 5em;
-    background-color: black;
-    padding-bottom: 5em;
-
+#div7 {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#video-paisagem{
-
-    width: 100%;
-    position:relative;
-    z-index:0;
-
+#div8 {
+  padding-top: 5em;
+  background-color: black;
+  padding-bottom: 5em;
 }
 
-.texto-claro{
-
-    color: aliceblue;
-
+#video-paisagem {
+  width: 100%;
+  position: relative;
+  z-index: 0;
 }
 
-.dadoscarro-paisagem{
-
-    position:absolute;
-    z-index:1;
-    padding-left: 10em;
-    transform: translate(-10%,-125%);
-
+.texto-claro {
+  color: aliceblue;
 }
 
-#ia{
-
-    width: 100%;
-
+.dadoscarro-paisagem {
+  position: absolute;
+  z-index: 1;
+  padding-left: 10em;
+  -webkit-transform: translate(-10%, -125%);
+          transform: translate(-10%, -125%);
 }
 
-#texto-ia{
-
-    position:absolute;
-    z-index:1;
-    padding-top: 2em;
-    padding-left: 30em;
-    padding-right: 30em;
-    transform: translate(0,-100%);
-    background-color: rgb(19, 17, 17);
-    padding-bottom: 3em;
-
+#ia {
+  width: 100%;
 }
 
-#textinho-ia{
-
-    text-align: justify;
-    color: aliceblue;
-
+#texto-ia {
+  position: absolute;
+  z-index: 1;
+  padding-top: 2em;
+  padding-left: 30em;
+  padding-right: 30em;
+  -webkit-transform: translate(0, -100%);
+          transform: translate(0, -100%);
+  background-color: #131111;
+  padding-bottom: 3em;
 }
 
-#div-final{
-
-    background-color: rgb(19, 17, 17);
-    padding-top: 20em;
-    padding-bottom: 20em;
-
-
+#textinho-ia {
+  text-align: justify;
+  color: aliceblue;
 }
 
-#ultima-div{
-
-    padding-top: 10em;
-
-
+#div-final {
+  background-color: #131111;
+  padding-top: 20em;
+  padding-bottom: 20em;
 }
 
-#utima-imagem{
-
-    width: 100%;
-
+#ultima-div {
+  padding-top: 10em;
 }
 
-#roda-pe{
-
-    background-color: rgb(19, 17, 17);
-
+#utima-imagem {
+  width: 100%;
 }
 
-#texto-roda-pe{
-
-    text-align: center;
-    padding-bottom: 1em;
-
+#roda-pe {
+  background-color: #131111;
 }
+
+#texto-roda-pe {
+  text-align: center;
+  padding-bottom: 1em;
+}
+/*# sourceMappingURL=modelS.css.map */

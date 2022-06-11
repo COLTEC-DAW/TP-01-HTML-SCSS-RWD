@@ -8,6 +8,7 @@ $primary-text-color: #5C5E62;
 $secondary-text-color: #ffffff;
 $nav-text-color: #171A20;
 $primary-font: 'Raleway', sans-serif;
+$secondary-font: Arial, sans-serif;
 
 body {
     background-color: $background-color;
@@ -32,9 +33,13 @@ body {
 
 
     .navbar-brand {
+        margin-left: 20px;
+        margin-right: 20px;
         background-image: url(../images/logo.svg);
         background-repeat: no-repeat;
-        width: 150px;
+        background-size: 100px;
+        width: 250px;
+        height: 40px;
     }
 
     #navbarToggler {
@@ -56,11 +61,12 @@ body {
 
         .description-row {
             padding: 25px;
+            font-size: 20px;
         }
 
         .p-top {
-            font-size: 26px;
-            font-family: $primary-font;
+            font-size: 32px;
+            font-family: $secondary-font;
             font-weight: bold;
             margin-bottom: 0;
         }
@@ -72,16 +78,23 @@ body {
         .button-grid{
             margin: 0px;
             padding: 0px;
-            align-self: flex-start;
             .reserve-button {
-                width: 180% !important;
+                width: 100%;
                 color: $secondary-text-color;
                 background-color: transparent;
                 border: 2px solid $secondary-text-color;
                 border-radius: 30px;
                 vertical-align: center;
                 text-transform: uppercase;
+
+                @include respond-above(sm){
+                    width: 180%;
+                }
             }
+        }
+
+        .arrow-button{
+            color: $secondary-text-color;
         }
 
         .container {
@@ -354,7 +367,7 @@ body {
     }
 
     .footer-button {
-        width: 200px !important;
+        width: 180px !important;
         margin: 5px;
         color: $secondary-text-color;
         background-color: transparent;

@@ -1,0 +1,362 @@
+$primary-font: 'Raleway', sans-serif;
+$nav-text-color: #171A20;
+
+body {
+
+    font-family: $primary-font;
+
+}
+
+#div1 {
+
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/8a74d206-66dc-4386-8c7a-88ff32174e7d/bvlatuR/std/4096x2560/Model-S-Main-Hero-Desktop-LHD");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 3em;
+
+    .navbar{
+        color: $nav-text-color;
+    }
+
+    .navbar-brand {
+        background-image: url(../images/logo.svg);
+        background-repeat: no-repeat;
+        width: 150px;
+    }
+
+    #navbarToggler {
+        font-size: 16px;
+        font-weight: 600;
+        color: $nav-text-color;
+    }
+
+}
+
+#div2 {
+
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/c0c475f7-2856-46e1-87ab-dd67ec8dd43f/bvlatuR/std/2880x1800/MS-Interior-Hero-Desktop");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#div3 {
+
+    background-color: black;
+
+}
+
+
+.nomecarro1 {
+
+    padding-top: 3em;
+    text-align: center;
+
+}
+
+.nomecarro2 {
+
+    text-align: center;
+
+}
+
+.dadoscarro {
+
+    margin-left: 30em;
+    margin-right: 30em;
+    margin-top: 35em;
+    padding-bottom: 2em;
+    font-size: 1.05em;
+
+}
+
+.col {
+
+    text-align: center;
+    font-size: 1em;
+    color: white;
+
+}
+
+.subtitulo {
+
+    text-align: center;
+    padding-top: 2em;
+    color: white;
+
+}
+
+.carousel-item video {
+
+    width: 100%;
+}
+
+#subtitulo1 {
+
+    padding-bottom: 37em;
+
+}
+
+#carrossel1 {
+
+    padding-bottom: 1em;
+
+}
+
+#container1 {
+
+    padding-top: 5em;
+
+}
+
+#textocontainer1 {
+
+    padding-top: 7em;
+
+}
+
+#textocontainer2 {
+
+    padding-left: 3em;
+
+}
+
+#textocontainer1,
+#textocontainer2,
+#textocontainer3 {
+
+    text-align: justify;
+
+}
+
+#textocontainer3 {
+
+    margin-bottom: 9em;
+
+}
+
+.imagemcontainer {
+
+    width: 35em;
+    height: 20em;
+    padding-bottom: 3em;
+
+}
+
+#div4 {
+
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/08585f00-c0b7-4bda-80e4-2b78406b5582/bvlatuR/std/4096x2560/Model-S-Performance-Hero-Desktop-LHD");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.dadoscarro2 {
+
+    margin-left: 25em;
+    margin-right: 25em;
+    font-size: 1.4em;
+
+}
+
+.dadoscarro3 {
+
+    padding-top: 37em;
+    padding-bottom: 5em;
+    color: rgb(0, 0, 0);
+
+}
+
+.carousel-caption {
+
+    position: relative;
+    left: auto;
+    right: auto;
+    padding-right: 25em;
+    padding-left: 25em;
+    margin-top: 5em;
+
+}
+
+#container2 {
+
+    padding-top: 5em;
+
+}
+
+.texto {
+
+    color: black;
+    text-align: justify;
+
+}
+
+#textinho {
+
+    padding-left: 15em;
+
+}
+
+#botao {
+
+    border-radius: 5em;
+    width: 10em;
+    height: 2.5em;
+    margin-left: 15em;
+    margin-top: 1em;
+    background-color: white;
+    margin-bottom: 3em;
+
+}
+
+#botao:hover {
+
+    background-color: black;
+    color: white;
+
+}
+
+#div6 {
+
+    background-color: rgb(224, 224, 224);
+
+}
+
+#textinho2 {
+
+    padding-top: 15em;
+    padding-left: 25em;
+    padding-right: 30em;
+    text-align: justify;
+
+}
+
+#texto-motor {
+
+    text-align: justify;
+    padding-bottom: 2em;
+
+}
+
+.motor {
+
+    border-radius: 2em;
+    margin-left: 13em;
+    width: 80%;
+    margin-top: 5em;
+    margin-bottom: 3em;
+
+}
+
+.texto-escuro {
+
+    color: black;
+
+}
+
+#imagem1 {
+
+    height: 60em;
+    width: 100%;
+
+}
+
+#div7 {
+
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#div8 {
+
+    padding-top: 5em;
+    background-color: black;
+    padding-bottom: 5em;
+
+}
+
+#video-paisagem {
+
+    width: 100%;
+    position: relative;
+    z-index: 0;
+
+}
+
+.texto-claro {
+
+    color: aliceblue;
+
+}
+
+.dadoscarro-paisagem {
+
+    position: absolute;
+    z-index: 1;
+    padding-left: 10em;
+    transform: translate(-10%, -125%);
+
+}
+
+#ia {
+
+    width: 100%;
+
+}
+
+#texto-ia {
+
+    position: absolute;
+    z-index: 1;
+    padding-top: 2em;
+    padding-left: 30em;
+    padding-right: 30em;
+    transform: translate(0, -100%);
+    background-color: rgb(19, 17, 17);
+    padding-bottom: 3em;
+
+}
+
+#textinho-ia {
+
+    text-align: justify;
+    color: aliceblue;
+
+}
+
+#div-final {
+
+    background-color: rgb(19, 17, 17);
+    padding-top: 20em;
+    padding-bottom: 20em;
+
+
+}
+
+#ultima-div {
+
+    padding-top: 10em;
+
+
+}
+
+#utima-imagem {
+
+    width: 100%;
+
+}
+
+#roda-pe {
+
+    background-color: rgb(19, 17, 17);
+
+}
+
+#texto-roda-pe {
+
+    text-align: center;
+    padding-bottom: 1em;
+
+}
