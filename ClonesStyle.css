@@ -1,0 +1,95 @@
+body{           
+    font-size: 13px;        font-family: Arial;         background-color: #ffffff;
+}
+h3, h5{
+    font-family: 'Comic Sans';
+}
+
+.sideBar{
+    font-size: 11px;        background-color: #f8f9fa;
+}
+.fontSmall{
+    font-size: 11px;
+}
+
+
+a{
+    text-decoration: none;  color: #0a58ca;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+
+.boxBorder{
+    border-style: solid;    background-color: #f8f9fa;
+    border-width: 1px;      border-color: #a2a9b1;
+}
+
+.headBorder{
+    border-style: solid;    border-color: #ffffff;
+    border-width: 1px;      border-bottom-color: #a7d7f9;
+}
+.headBorderButton{
+    border-style: solid;    border-color: #ffffff;
+    border-width: 1px;      border-right-color: #a7d7f9;
+}
+
+.headBorderAtual{
+    color: #212529;       border-bottom-color: #ffffff; 
+}
+.headBorderLer{
+    color: #212529;       border-bottom-color: #ffffff;
+    border-left-color: #a7d7f9; 
+}
+
+
+.button{
+    font-weight: bold;      border: none;               background-color: #ffffff;
+}
+.buttonMenu{
+    font-size: 20px;        color: #a2a9b1;
+}
+.button:hover{
+    background-color: #f8f9fa;
+}
+
+.buttonLogin{
+    width: 50%;
+}
+.buttonOpcoes{
+    width: 10%;
+}
+
+.buttonDiscussao{
+    border: none;           background-color: #3366cc;
+    font-size: 13px;        color: #ffffff;
+    font-weight: bold;      border-radius: 2px;
+}
+.buttonDiscussao:hover{
+    background-color: #447ff5;
+    color: #ffffff;
+}
+
+.subtitulo{
+    font-size: 16px;        font-weight: bold;
+}
+
+@media screen and (max-width: 1024px){
+    body{       font-size: 10px;    }
+    h3{         font-size: 20px;    }
+    h5{         font-size: 16px;    }
+
+    .subtitulo{     font-size: 14px;    }
+    .sideBar{       font-size: 7px;     }
+    .fontSmall{     font-size: 7px;     }
+
+    .buttonDiscussao{   font-size: 7px; }
+}
