@@ -1,0 +1,212 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color:#232629;
+}
+
+.main-content{
+
+    padding: 10rem 0;
+    width: 100%;
+}
+
+#JetBrainsLogo{
+    width: 120px;
+    margin-left: 3%;
+    margin-right: 90px;
+}
+
+header span{
+    margin-left: 70%;
+}
+
+.headerLink{
+    color: #a8adb5;
+    font-size: 0.7em;
+    margin-left: 0px;
+}
+
+.headerLink:hover{
+    color:white;
+    text-decoration: none;
+}
+
+.iconLink{
+    margin-left: 15px;
+}
+
+.container_{
+    margin-top: 60px;
+}
+
+.texts{
+    margin-left: 160px;
+}
+
+.texts-title{
+    margin-bottom: 25px;
+    color: #161616;
+}
+
+.texts i{
+    color: black;
+    font-size: 40px;
+}
+
+.text{
+    margin-top: 20px;
+}
+
+.text p{
+    color: #4b4b4b;
+    font-size: medium;
+    margin-left: -8%;
+}
+
+.first-line{
+    margin-top: -3px;
+    font-weight: bold;
+}
+.second-line{
+    margin-top: -15px;
+}
+
+i{
+    color: #a8adb5;
+    font-size: 0.7em;
+}
+
+
+input{
+    width: 90% !important;
+    height: 25px !important;
+    border-radius: 0px 0px 0px !important;
+}
+
+button{
+    background-color: #00a6fd !important;
+    border-color:#00a6fd !important;
+    font-size: small !important;
+    font-weight: bold !important;
+    width: 100px !important;
+}
+
+.forms{
+    margin-left: 60px;
+}
+
+.singin-form, .singup-form{
+    background-color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    padding: 10px;
+}
+
+.singup-form{
+    margin-top: 20px;
+}
+
+form a{
+    margin-left: 5px;
+    font-size: small;
+}
+
+
+form label{
+    font-size: small;
+    font-weight: bold;
+}
+
+form i{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    margin-left: 0px;
+  }
+
+.fa-github{
+    color: black;
+}
+
+.fa-gitlab{
+    color: orange;
+}
+
+.fa-bitbucket{
+    color: #00a6fd;
+}
+
+hr{
+    margin-left: 0px;
+    width: 90%;
+}
+
+footer #footer-content{
+    background-color: black !important;
+}
+
+
+@media (max-width: 992px) and (min-width: 767px) {
+    .singin-form, .singup-form{
+        width: 80% !important;
+        margin-left: 30px;
+    }
+    .texts, .forms{
+        margin-left: 25px !important;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+    .singin-form, .singup-form{
+        width: 80% !important;
+        margin-left: 30px;
+    }
+    .text p{
+        margin-left: 0%;
+    }
+    .headerLink{
+        display: none;
+    }
+    .headerIcon{
+        font-size: 0px;
+    }
+    .texts{
+        margin-left: 25px !important;
+    }
+    .forms{
+        margin-left: 15px !important;
+    }
+}
+
+@media (max-width: 575px){
+    .singin-form, .singup-form{
+        width: 80% !important;
+        margin-left: 30px;
+    }
+    .text p{
+        margin-left: 1.15%;
+    }
+    .headerLink{
+        display: none;
+    }
+    .headerIcon{
+        font-size: 0px;
+    }
+    .texts{
+        margin-left: 25px !important;
+    }
+    .forms{
+        margin-left: 15px !important;
+    }
+}
+
