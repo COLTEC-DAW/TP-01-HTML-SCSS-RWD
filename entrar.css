@@ -1,0 +1,102 @@
+body, ul, li, p, h1{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    font-family: 'Gotham', sans-serif;
+}
+
+.cabecalho{
+    text-align: center;
+}
+
+.spotify-logo{
+    width: 190px;
+}
+
+.corpo{
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
+    margin: auto;
+}
+
+.corpo button{
+    max-width: 500px;
+    width: 100%;
+    border: 0;
+    border-radius: 75px;
+    padding: 13px 27px 10px 27px;
+    background-color: rgb(255, 0, 0);
+    margin-top: 2%;
+    font-size: 90%;
+    text-transform: uppercase;
+    font-weight: 550;
+    color: white;
+}
+
+
+button img{
+    width: 20px;
+    margin: 0 8px 5px 0;
+}
+
+button p{
+    display: inline;
+}
+
+.login-facebook button{
+    background-color: rgb(59, 89, 152);
+}
+
+.login-apple button{
+    background-color: black;
+}
+
+.login-google button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(104, 104, 104);
+    border: 1px solid rgb(131, 127, 127);
+}
+
+.login-telefone button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(104, 104, 104);
+    border: 1px solid rgb(131, 127, 127);
+}
+
+.hrou-div{
+    width: 100%;
+    max-width: 120px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.hrou{
+    width: 90px;
+    height: 50px;
+    display: inline;
+    opacity: 60%;
+}
+
+.formulario button {
+    background-color: #1ed760;
+    color: black;
+}
+
+.formulario .form-group input{
+    height: 55px;
+}
+
+div span{
+    font-size: 13px;
+}
+
+.inscrever-se button {
+    background-color: white;
+    border: 1px solid rgba(141, 141, 141, 0.603);
+    color: gray;
+}
+
+.inscrever-se {
+    font-size: 18px;
+}

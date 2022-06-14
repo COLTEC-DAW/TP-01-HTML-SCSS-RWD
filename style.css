@@ -1,0 +1,186 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+/* Resetando as configurações padrões do HTML */
+body, ul, li, p, h1{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    font-family: 'Gotham', sans-serif;
+}
+body{
+    color: white;
+    background-color: #2941ab;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    width: 100%;
+    display: block;
+    border-radius: 2%;
+}
+.row{
+    margin: 0;
+    padding: 0;
+}
+/* Barra de navegação */
+header, .navbar{
+    background-color: black;
+    font-weight: 450;
+    padding: 10px 0 10px 0;
+    font-size: 1rem;
+}
+footer{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+footer, .bottom-navbar{
+    background-color: black;
+    font-weight: 450;
+}
+#logo{
+    width: 132px;
+    min-width: 132px;
+    max-height: 132px;
+    display: inline-block;
+}
+#logo-bottom{
+    width: 132px;
+    min-width: 132px;
+    max-height: 132px;
+    display: inline-block;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+#navbar-links a{
+    color: white;
+}
+#navbar-links a:hover{
+    color: #1ed760;
+}
+#separator{
+    color: #ffff;
+}
+#subscribe-menu{
+    white-space: nowrap;
+}
+#corpo{
+    margin: 0;
+    display: block;
+    padding-top: 12%;
+    padding-bottom: 160px;
+    text-align: center;
+    color: #1ed760;
+    font-weight: 500;
+    background-image: url(https://www-growth.scdn.co/static/home/bursts-tablet.svg);
+    background-size: 100rem;
+    background-position: right 40% center;
+    background-repeat: no-repeat;
+}
+
+#corpo p{
+    margin-top: 3%;
+}
+#corpo button{
+    border: 0;
+    border-radius: 75px;
+    padding-top: 13px;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-bottom: 13px;
+    background-color: #1ed760;
+    margin-top: 3%;
+    font-size: 90%;
+    font-weight: 550;
+    color: #2941ab;
+}
+h1{
+    font-size: 145px;
+    font-weight: bolder;
+    letter-spacing: -6px;
+}
+
+#footer-maincontent{
+    font-size: 95%;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    align-items: left;
+    justify-content: left;
+}
+#footer-maincontent p{
+    color: #919496;
+}
+#footer-maincontent a:hover{
+    color: #1ed760;
+}
+#footer-social{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    padding-right: 100px;
+}
+#footer-social button{
+    border: 0;
+    border-radius: 100px;
+    width: 54px;
+    height: 54px;
+    background-color: #222326;
+    font-size: 30px;
+    font-weight: 550;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+#insta-icon{
+    margin-right: 8px;
+}
+#twitter-icon{
+    margin-right: 8px;
+}
+#facebook-icon{
+    margin-right: 8px;
+}
+
+#footer-social a:hover{
+    color: #1ed760;
+}
+
+.end-footer a{
+    font-weight: 400;
+    color: #919496;
+}
+.end-footer a:hover{
+    color: #1ed760;
+}
+
+#copyright{
+    color: #919496;
+    font-weight: 400;
+}
+#region-menu{
+    margin-left: 200rem;
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+}
+.end-footer{
+    padding: 0;
+    margin: 0;
+    font-size: 70%;
+    text-align: center;
+    align-items: center;
+    float: inline-block;
+    padding-right: 350px;
+}
+
+.endftitem{
+    margin-right: 24px;
+}
