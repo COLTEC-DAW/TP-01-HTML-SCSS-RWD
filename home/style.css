@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    direction: ltr;
+}
+
+header{
+    padding: 50px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+.sinopse{
+    color: rgb(241, 233, 233);
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    font-size: 1.2vw;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo{
+    padding: 10px;
+    min-width: 70%;
+
+}
+
+.logoPrincipal{
+    padding: 10px;
+    max-height: 80%;
+    min-width: 80%;
+}
+
+.menu_list{
+    list-style: none;
+    padding-left: 0;
+    padding-top: 7px;
+}
+
+.menu_list li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.menu_list li a{
+    text-decoration: none;
+    color: white;
+}
+
+#hero{
+    height: 100%;
+    background-image: url(/assets/robin\ hood\ banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+#hero_infos{
+    padding: 0;
+    margin-top: 170px;
+    z-index: 3;
+    position: relative;
+}
+
+#hero_infos img.logo{
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+#hero_info button{
+    padding: 10%;
+    padding-left: 25%;
+    margin-left: 20px;
+
+}

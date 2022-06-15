@@ -1,0 +1,47 @@
+body{
+    display: block;
+    background-color: black;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+   
+.logo{
+    padding: 10px;
+    max-width: 6%;
+    min-width: 6%;
+}
+
+.perfil-wrapper{
+    padding: 5%;
+    text-align: center;
+
+}
+
+.perfil-wrapper ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.perfil-wrapper li{
+  display: inline-block;
+
+}
+
+
+.perfil-wrapper img{
+    padding: 5px;
+    max-width: 70%;
+    border-radius: 10px;
+}
+
+.perfil-wrapper p{
+    color: white;
+}
+
+.perfil-wrapper a{
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+}
+
