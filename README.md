@@ -1,33 +1,46 @@
-# Prova 01 - HTML, SCSS & RWD
-
-### Desenvolvimento de Aplicações Web 
+# Trabalho Prático: HTML + (S)CSS
 
 João Eduardo Montandon
 
-Setor de Informática - COLTEC/MG
+NTI - COLTEC/MG
 
-Valor: 8 pontos
+Valor: 7 pontos
 
-Integrantes: até 4 alunos
+Integrantes: até 5 alunos
 
-## Clone de um Sistema Web
+## Landing Page
 
-A implementação de clones é uma das formas mais eficientes de se praticar a prototipação e desenvolvimento de interfaces web.
-Basicamente, essa atividade consiste em escolher um sistema real, e implementar um protótipo de sua interface, replicando seus elementos visuais.
+Neste trabalho prático de HTML e CSS, o aluno deverá implementar uma landing page sobre um tópico de geopolítica. 
+O layout da página deve incluir um cabeçalho, seção principal, menu lateral e rodapé. 
+A landing page deverá ser acompanhada de mais duas páginas: uma galeria de imagens e uma página de contato.
 
-Utilizando as técnicas e tecnologias vistas na disciplina até então, selecione um sistema real, e implemente o protótipo estático de duas telas desse sistema.
-Obrigatóriamente, seu protótipo deverá utilizar:
-* Framework bootstrap (ou outro framework CSS);
-* Layout responsivo, utilizando a técnica de grid layout (layout de colunas);
-    * Para cada tela, implementar pelo menos dois layouts;
+Na galeria de imagens, o aluno deverá implementar uma página que exibe uma seleção de imagens relacionadas ao tópico abordado na landing page. 
+Já na página de contato, o aluno deverá implementar uma página que permita que os visitantes entrem em contato com os integrantes do grupo responsável pelo trabalho. 
+Além disso, a página de contato deverá incluir informações sobre os integrantes do grupo.
 
-Segue sugestões de alguns sistemas:
-* https://www.uol.com.br/ (site de notíticas)
-* https://stackoverflow.com/ (fórum)
-* https://twitter.com/ (rede social)
-* https://github.com/ (portfolio)
-* https://www.amazon.com.br/ (loja virtual)
-* https://www.youtube.com/ (Site de Streaming)
-* https://classroom.google.com/ (Sistema acadêmico)
-* https://mail.google.com/ (E-mail)
-* https://discord.com/ (Chat)
+O menu deve redirecionar para pelo menos as seguintes páginas: a galeria de imagens, a página de contato e links para as principais referências utilizadas para a escrita do conteúdo da página.
+
+Para o desenvolvimento do trabalho, o aluno deverá utilizar tecnologias como animações e transições em CSS, algum mecanismo de page layout (bootstrap, flexbox ou css grid), SASS e uso correto dos elementos semânticos da linguagem HTML, como `<header>`, `<main>`, `<aside>`, `<footer>`, etc.
+
+## Cronograma
+
+Segue uma sugestão de cronograma de elaboração do trabalho.
+
+| Semana |	Descrição | Data|
+|---------|-----------|-----|
+| 1 | Definição do tema e estruturação do layout da página |	01/04 |
+| 2	| Implementação da landing page (cabeçalho, seção principal, menu lateral e rodapé) |	08/04 |
+| 3	| Implementação da página de galeria de imagens	| 15/04 |
+| 4	| Implementação da página de contato | 22/04 |
+| 5	| Revisão final do trabalho e preparação para entrega | 28/04 |
+
+## Avaliação
+
+O trabalho será avaliado segundo os critérios de organização do código HTML, estilização CSS e uso das tecnologias mencionadas. 
+Portanto, o aluno deve se certificar de que o código HTML esteja bem organizado e use corretamente os elementos semânticos, a estilização CSS deve ser consistente e seguir as boas práticas e o uso das tecnologias deve ser adequado ao objetivo do trabalho.
+
+## Apresentação
+
+Os trabalhos serão apresentados para o professor no dia 28/04. 
+Nesta apresentação os alunos deverão exibir a página pronta, e explicar onde os recursos exigidos foram implementados.
+É importante que o grupo descreva também as decisões de implementação importantes que tomaram durante a implementação do trabalho.
