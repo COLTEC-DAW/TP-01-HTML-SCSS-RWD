@@ -1,4 +1,4 @@
-# Trabalho Prático: HTML + (S)CSS
+# Trabalho Prático: HTML + (S)CSS + RWD
 
 João Eduardo Montandon
 
@@ -11,8 +11,9 @@ Integrantes: até 5 alunos
 ## Landing Page
 
 Neste trabalho prático de HTML e CSS, o aluno deverá implementar uma landing page sobre um tópico de geopolítica. 
-O layout da página deve incluir um cabeçalho, seção principal, menu lateral e rodapé. 
+O layout da página deve incluir pelo menos cabeçalho, seção principal, menu lateral e rodapé. 
 A landing page deverá ser acompanhada de mais duas páginas: uma galeria de imagens e uma página de contato.
+Todas as páginas deverão implementar os princípios de design responsivo, ofertando as páginas em pelo menos dois formatos distintos.
 
 Na galeria de imagens, o aluno deverá implementar uma página que exibe uma seleção de imagens relacionadas ao tópico abordado na landing page. 
 Já na página de contato, o aluno deverá implementar uma página que permita que os visitantes entrem em contato com os integrantes do grupo responsável pelo trabalho. 
